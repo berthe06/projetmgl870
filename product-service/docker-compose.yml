@@ -1,0 +1,28 @@
+services:
+  mongodb:
+    image: mongo:7.0.5
+    container_name: mongodbProduct
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: password
+      MONGO_INITDB_ROOT_DATABASE: product-service
+    volumes:
+      - ./data:/data/db
+    networks:
+      - elk
+
+  product-service:
+    build:
+        context: .
+        dockerfile: Dockerfile
+    container_name: product-service-container
+    volumes:
+      - ./logs:/usr/share/product-service/logs
+    networks:
+      - elk
+
+networks:
+  elk:
+    driver: bridge

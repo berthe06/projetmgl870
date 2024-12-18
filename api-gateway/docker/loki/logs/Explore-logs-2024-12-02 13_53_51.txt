@@ -1,0 +1,585 @@
+Common labels: {"application":"product-service","detected_level":"DEBUG","host":"MSI","level":"DEBUG","service_name":"product-service"}
+Line limit: "1000 (290 returned)"
+Total bytes processed: "76.7  kB"
+
+
+2024-12-02T13:52:27-05:00	2024-12-02T13:52:27.380-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Response 202 ACCEPTED
+
+2024-12-02T13:52:27-05:00	2024-12-02T13:52:27.362-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Writing [[B@7a65c23c] as "application/json"
+
+2024-12-02T13:52:27-05:00	2024-12-02T13:52:27.362-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+
+2024-12-02T13:52:27-05:00	2024-12-02T13:52:27.362-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : HTTP POST http://localhost:9411/api/v2/spans
+
+2024-12-02T13:52:27-05:00	2024-12-02T13:52:27.159-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-5] [674e01eb0b7e80c5f96bdcb678cf00ba-f96bdcb678cf00ba] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+
+2024-12-02T13:52:27-05:00	2024-12-02T13:52:27.158-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-5] [674e01eb0b7e80c5f96bdcb678cf00ba-f96bdcb678cf00ba] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{35, 32, 84, 89, 80, 69, 32, 97, 112, 112, 108, 105, 99, 97, 116, 105, 111, 110, 95, 114, 101, 97, 1 (truncated)...]
+
+2024-12-02T13:52:27-05:00	2024-12-02T13:52:27.157-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-5] [674e01eb0b7e80c5f96bdcb678cf00ba-f96bdcb678cf00ba] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:application/openmetrics-text;version=1.0.0;charset=utf-8' in response
+
+2024-12-02T13:52:27-05:00	2024-12-02T13:52:27.118-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-5] [674e01eb0b7e80c5f96bdcb678cf00ba-f96bdcb678cf00ba] m.m.a.RequestResponseBodyMethodProcessor : Read "application/octet-stream" to []
+
+2024-12-02T13:52:27-05:00	2024-12-02T13:52:27.118-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-5] [674e01eb0b7e80c5f96bdcb678cf00ba-f96bdcb678cf00ba] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'prometheus'
+
+2024-12-02T13:52:27-05:00	2024-12-02T13:52:27.118-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-5] [674e01eb0b7e80c5f96bdcb678cf00ba-f96bdcb678cf00ba] o.s.web.servlet.DispatcherServlet        : GET "/actuator/prometheus", parameters={}
+
+2024-12-02T13:52:25-05:00	2024-12-02T13:52:25.352-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Response 202 ACCEPTED
+
+2024-12-02T13:52:25-05:00	2024-12-02T13:52:25.335-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Writing [[B@7ec63002] as "application/json"
+
+2024-12-02T13:52:25-05:00	2024-12-02T13:52:25.335-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+
+2024-12-02T13:52:25-05:00	2024-12-02T13:52:25.335-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : HTTP POST http://localhost:9411/api/v2/spans
+
+2024-12-02T13:52:25-05:00	2024-12-02T13:52:25.091-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-6] [674e01e9f3fd1f6b03ae467d3a6164ea-03ae467d3a6164ea] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+
+2024-12-02T13:52:25-05:00	2024-12-02T13:52:25.090-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-6] [674e01e9f3fd1f6b03ae467d3a6164ea-03ae467d3a6164ea] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{35, 32, 84, 89, 80, 69, 32, 97, 112, 112, 108, 105, 99, 97, 116, 105, 111, 110, 95, 114, 101, 97, 1 (truncated)...]
+
+2024-12-02T13:52:25-05:00	2024-12-02T13:52:25.088-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-6] [674e01e9f3fd1f6b03ae467d3a6164ea-03ae467d3a6164ea] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:application/openmetrics-text;version=1.0.0;charset=utf-8' in response
+
+2024-12-02T13:52:25-05:00	2024-12-02T13:52:25.045-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-6] [674e01e9f3fd1f6b03ae467d3a6164ea-03ae467d3a6164ea] m.m.a.RequestResponseBodyMethodProcessor : Read "application/octet-stream" to []
+
+2024-12-02T13:52:25-05:00	2024-12-02T13:52:25.045-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-6] [674e01e9f3fd1f6b03ae467d3a6164ea-03ae467d3a6164ea] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'prometheus'
+
+2024-12-02T13:52:25-05:00	2024-12-02T13:52:25.044-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-6] [674e01e9f3fd1f6b03ae467d3a6164ea-03ae467d3a6164ea] o.s.web.servlet.DispatcherServlet        : GET "/actuator/prometheus", parameters={}
+
+2024-12-02T13:52:23-05:00	2024-12-02T13:52:23.305-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Response 202 ACCEPTED
+
+2024-12-02T13:52:23-05:00	2024-12-02T13:52:23.287-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Writing [[B@604cfe3b] as "application/json"
+
+2024-12-02T13:52:23-05:00	2024-12-02T13:52:23.287-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+
+2024-12-02T13:52:23-05:00	2024-12-02T13:52:23.287-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : HTTP POST http://localhost:9411/api/v2/spans
+
+2024-12-02T13:52:23-05:00	2024-12-02T13:52:23.021-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-4] [674e01e65e8487daaae8234cca6ac93f-aae8234cca6ac93f] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+
+2024-12-02T13:52:23-05:00	2024-12-02T13:52:23.020-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-4] [674e01e65e8487daaae8234cca6ac93f-aae8234cca6ac93f] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{35, 32, 84, 89, 80, 69, 32, 97, 112, 112, 108, 105, 99, 97, 116, 105, 111, 110, 95, 114, 101, 97, 1 (truncated)...]
+
+2024-12-02T13:52:23-05:00	2024-12-02T13:52:23.019-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-4] [674e01e65e8487daaae8234cca6ac93f-aae8234cca6ac93f] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:application/openmetrics-text;version=1.0.0;charset=utf-8' in response
+
+2024-12-02T13:52:22-05:00	2024-12-02T13:52:22.969-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-4] [674e01e65e8487daaae8234cca6ac93f-aae8234cca6ac93f] m.m.a.RequestResponseBodyMethodProcessor : Read "application/octet-stream" to []
+
+2024-12-02T13:52:22-05:00	2024-12-02T13:52:22.969-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-4] [674e01e65e8487daaae8234cca6ac93f-aae8234cca6ac93f] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'prometheus'
+
+2024-12-02T13:52:22-05:00	2024-12-02T13:52:22.969-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-4] [674e01e65e8487daaae8234cca6ac93f-aae8234cca6ac93f] o.s.web.servlet.DispatcherServlet        : GET "/actuator/prometheus", parameters={}
+
+2024-12-02T13:52:21-05:00	2024-12-02T13:52:21.271-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Response 202 ACCEPTED
+
+2024-12-02T13:52:21-05:00	2024-12-02T13:52:21.242-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Writing [[B@4a0c65c7] as "application/json"
+
+2024-12-02T13:52:21-05:00	2024-12-02T13:52:21.242-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+
+2024-12-02T13:52:21-05:00	2024-12-02T13:52:21.242-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : HTTP POST http://localhost:9411/api/v2/spans
+
+2024-12-02T13:52:20-05:00	2024-12-02T13:52:20.990-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-3] [674e01e492ca923bec0940e39561b1b8-ec0940e39561b1b8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+
+2024-12-02T13:52:20-05:00	2024-12-02T13:52:20.990-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-3] [674e01e492ca923bec0940e39561b1b8-ec0940e39561b1b8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{35, 32, 84, 89, 80, 69, 32, 97, 112, 112, 108, 105, 99, 97, 116, 105, 111, 110, 95, 114, 101, 97, 1 (truncated)...]
+
+2024-12-02T13:52:20-05:00	2024-12-02T13:52:20.990-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-3] [674e01e492ca923bec0940e39561b1b8-ec0940e39561b1b8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:application/openmetrics-text;version=1.0.0;charset=utf-8' in response
+
+2024-12-02T13:52:20-05:00	2024-12-02T13:52:20.898-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-3] [674e01e492ca923bec0940e39561b1b8-ec0940e39561b1b8] m.m.a.RequestResponseBodyMethodProcessor : Read "application/octet-stream" to []
+
+2024-12-02T13:52:20-05:00	2024-12-02T13:52:20.898-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-3] [674e01e492ca923bec0940e39561b1b8-ec0940e39561b1b8] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'prometheus'
+
+2024-12-02T13:52:20-05:00	2024-12-02T13:52:20.898-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-3] [674e01e492ca923bec0940e39561b1b8-ec0940e39561b1b8] o.s.web.servlet.DispatcherServlet        : GET "/actuator/prometheus", parameters={}
+
+2024-12-02T13:52:19-05:00	2024-12-02T13:52:19.226-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Response 202 ACCEPTED
+
+2024-12-02T13:52:19-05:00	2024-12-02T13:52:19.208-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Writing [[B@15f22aac] as "application/json"
+
+2024-12-02T13:52:19-05:00	2024-12-02T13:52:19.208-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+
+2024-12-02T13:52:19-05:00	2024-12-02T13:52:19.208-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : HTTP POST http://localhost:9411/api/v2/spans
+
+2024-12-02T13:52:18-05:00	2024-12-02T13:52:18.989-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-2] [674e01e2fa4e1bc10136f5ee20ae3535-0136f5ee20ae3535] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+
+2024-12-02T13:52:18-05:00	2024-12-02T13:52:18.987-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-2] [674e01e2fa4e1bc10136f5ee20ae3535-0136f5ee20ae3535] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{35, 32, 84, 89, 80, 69, 32, 97, 112, 112, 108, 105, 99, 97, 116, 105, 111, 110, 95, 114, 101, 97, 1 (truncated)...]
+
+2024-12-02T13:52:18-05:00	2024-12-02T13:52:18.980-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-2] [674e01e2fa4e1bc10136f5ee20ae3535-0136f5ee20ae3535] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:application/openmetrics-text;version=1.0.0;charset=utf-8' in response
+
+2024-12-02T13:52:18-05:00	2024-12-02T13:52:18.819-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-2] [674e01e2fa4e1bc10136f5ee20ae3535-0136f5ee20ae3535] m.m.a.RequestResponseBodyMethodProcessor : Read "application/octet-stream" to []
+
+2024-12-02T13:52:18-05:00	2024-12-02T13:52:18.819-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-2] [674e01e2fa4e1bc10136f5ee20ae3535-0136f5ee20ae3535] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'prometheus'
+
+2024-12-02T13:52:18-05:00	2024-12-02T13:52:18.818-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-2] [674e01e2fa4e1bc10136f5ee20ae3535-0136f5ee20ae3535] o.s.web.servlet.DispatcherServlet        : GET "/actuator/prometheus", parameters={}
+
+2024-12-02T13:52:17-05:00	2024-12-02T13:52:17.206-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Response 202 ACCEPTED
+
+2024-12-02T13:52:17-05:00	2024-12-02T13:52:17.181-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Writing [[B@2127f676] as "application/json"
+
+2024-12-02T13:52:17-05:00	2024-12-02T13:52:17.181-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+
+2024-12-02T13:52:17-05:00	2024-12-02T13:52:17.181-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : HTTP POST http://localhost:9411/api/v2/spans
+
+2024-12-02T13:52:16-05:00	2024-12-02T13:52:16.978-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-10] [674e01e06cbe1e07b824f125d7858fb4-b824f125d7858fb4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+
+2024-12-02T13:52:16-05:00	2024-12-02T13:52:16.978-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-10] [674e01e06cbe1e07b824f125d7858fb4-b824f125d7858fb4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{35, 32, 84, 89, 80, 69, 32, 97, 112, 112, 108, 105, 99, 97, 116, 105, 111, 110, 95, 114, 101, 97, 1 (truncated)...]
+
+2024-12-02T13:52:16-05:00	2024-12-02T13:52:16.968-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-10] [674e01e06cbe1e07b824f125d7858fb4-b824f125d7858fb4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:application/openmetrics-text;version=1.0.0;charset=utf-8' in response
+
+2024-12-02T13:52:16-05:00	2024-12-02T13:52:16.738-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-10] [674e01e06cbe1e07b824f125d7858fb4-b824f125d7858fb4] m.m.a.RequestResponseBodyMethodProcessor : Read "application/octet-stream" to []
+
+2024-12-02T13:52:16-05:00	2024-12-02T13:52:16.738-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-10] [674e01e06cbe1e07b824f125d7858fb4-b824f125d7858fb4] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'prometheus'
+
+2024-12-02T13:52:16-05:00	2024-12-02T13:52:16.737-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-10] [674e01e06cbe1e07b824f125d7858fb4-b824f125d7858fb4] o.s.web.servlet.DispatcherServlet        : GET "/actuator/prometheus", parameters={}
+
+2024-12-02T13:52:15-05:00	2024-12-02T13:52:15.171-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Response 202 ACCEPTED
+
+2024-12-02T13:52:15-05:00	2024-12-02T13:52:15.160-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Writing [[B@68684055] as "application/json"
+
+2024-12-02T13:52:15-05:00	2024-12-02T13:52:15.160-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+
+2024-12-02T13:52:15-05:00	2024-12-02T13:52:15.160-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : HTTP POST http://localhost:9411/api/v2/spans
+
+2024-12-02T13:52:14-05:00	2024-12-02T13:52:14.798-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-1] [674e01de56ec7cc73c0f6d8cc954e249-3c0f6d8cc954e249] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+
+2024-12-02T13:52:14-05:00	2024-12-02T13:52:14.798-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-1] [674e01de56ec7cc73c0f6d8cc954e249-3c0f6d8cc954e249] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{35, 32, 84, 89, 80, 69, 32, 97, 112, 112, 108, 105, 99, 97, 116, 105, 111, 110, 95, 114, 101, 97, 1 (truncated)...]
+
+2024-12-02T13:52:14-05:00	2024-12-02T13:52:14.798-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-1] [674e01de56ec7cc73c0f6d8cc954e249-3c0f6d8cc954e249] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:application/openmetrics-text;version=1.0.0;charset=utf-8' in response
+
+2024-12-02T13:52:14-05:00	2024-12-02T13:52:14.659-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-1] [674e01de56ec7cc73c0f6d8cc954e249-3c0f6d8cc954e249] m.m.a.RequestResponseBodyMethodProcessor : Read "application/octet-stream" to []
+
+2024-12-02T13:52:14-05:00	2024-12-02T13:52:14.659-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-1] [674e01de56ec7cc73c0f6d8cc954e249-3c0f6d8cc954e249] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'prometheus'
+
+2024-12-02T13:52:14-05:00	2024-12-02T13:52:14.659-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-1] [674e01de56ec7cc73c0f6d8cc954e249-3c0f6d8cc954e249] o.s.web.servlet.DispatcherServlet        : GET "/actuator/prometheus", parameters={}
+
+2024-12-02T13:52:13-05:00	2024-12-02T13:52:13.157-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Response 202 ACCEPTED
+
+2024-12-02T13:52:13-05:00	2024-12-02T13:52:13.144-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Writing [[B@5a00b429] as "application/json"
+
+2024-12-02T13:52:13-05:00	2024-12-02T13:52:13.144-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+
+2024-12-02T13:52:13-05:00	2024-12-02T13:52:13.144-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : HTTP POST http://localhost:9411/api/v2/spans
+
+2024-12-02T13:52:12-05:00	2024-12-02T13:52:12.852-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-9] [674e01dc2e8693f4557efff4d1231dbf-557efff4d1231dbf] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+
+2024-12-02T13:52:12-05:00	2024-12-02T13:52:12.852-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-9] [674e01dc2e8693f4557efff4d1231dbf-557efff4d1231dbf] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{35, 32, 84, 89, 80, 69, 32, 97, 112, 112, 108, 105, 99, 97, 116, 105, 111, 110, 95, 114, 101, 97, 1 (truncated)...]
+
+2024-12-02T13:52:12-05:00	2024-12-02T13:52:12.852-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-9] [674e01dc2e8693f4557efff4d1231dbf-557efff4d1231dbf] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:application/openmetrics-text;version=1.0.0;charset=utf-8' in response
+
+2024-12-02T13:52:12-05:00	2024-12-02T13:52:12.582-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-9] [674e01dc2e8693f4557efff4d1231dbf-557efff4d1231dbf] m.m.a.RequestResponseBodyMethodProcessor : Read "application/octet-stream" to []
+
+2024-12-02T13:52:12-05:00	2024-12-02T13:52:12.580-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-9] [674e01dc2e8693f4557efff4d1231dbf-557efff4d1231dbf] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'prometheus'
+
+2024-12-02T13:52:12-05:00	2024-12-02T13:52:12.580-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-9] [674e01dc2e8693f4557efff4d1231dbf-557efff4d1231dbf] o.s.web.servlet.DispatcherServlet        : GET "/actuator/prometheus", parameters={}
+
+2024-12-02T13:52:11-05:00	2024-12-02T13:52:11.132-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Response 202 ACCEPTED
+
+2024-12-02T13:52:11-05:00	2024-12-02T13:52:11.119-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Writing [[B@686b8147] as "application/json"
+
+2024-12-02T13:52:11-05:00	2024-12-02T13:52:11.119-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+
+2024-12-02T13:52:11-05:00	2024-12-02T13:52:11.119-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : HTTP POST http://localhost:9411/api/v2/spans
+
+2024-12-02T13:52:10-05:00	2024-12-02T13:52:10.641-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-7] [674e01da009868395f171716d6020867-5f171716d6020867] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+
+2024-12-02T13:52:10-05:00	2024-12-02T13:52:10.641-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-7] [674e01da009868395f171716d6020867-5f171716d6020867] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{35, 32, 84, 89, 80, 69, 32, 97, 112, 112, 108, 105, 99, 97, 116, 105, 111, 110, 95, 114, 101, 97, 1 (truncated)...]
+
+2024-12-02T13:52:10-05:00	2024-12-02T13:52:10.641-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-7] [674e01da009868395f171716d6020867-5f171716d6020867] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:application/openmetrics-text;version=1.0.0;charset=utf-8' in response
+
+2024-12-02T13:52:10-05:00	2024-12-02T13:52:10.498-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-7] [674e01da009868395f171716d6020867-5f171716d6020867] m.m.a.RequestResponseBodyMethodProcessor : Read "application/octet-stream" to []
+
+2024-12-02T13:52:10-05:00	2024-12-02T13:52:10.498-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-7] [674e01da009868395f171716d6020867-5f171716d6020867] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'prometheus'
+
+2024-12-02T13:52:10-05:00	2024-12-02T13:52:10.498-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-7] [674e01da009868395f171716d6020867-5f171716d6020867] o.s.web.servlet.DispatcherServlet        : GET "/actuator/prometheus", parameters={}
+
+2024-12-02T13:52:09-05:00	2024-12-02T13:52:09.103-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Response 202 ACCEPTED
+
+2024-12-02T13:52:09-05:00	2024-12-02T13:52:09.089-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Writing [[B@182a2593] as "application/json"
+
+2024-12-02T13:52:09-05:00	2024-12-02T13:52:09.089-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+
+2024-12-02T13:52:09-05:00	2024-12-02T13:52:09.089-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : HTTP POST http://localhost:9411/api/v2/spans
+
+2024-12-02T13:52:08-05:00	2024-12-02T13:52:08.455-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-8] [674e01d8f1833a345afb053c693b5a3f-5afb053c693b5a3f] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+
+2024-12-02T13:52:08-05:00	2024-12-02T13:52:08.455-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-8] [674e01d8f1833a345afb053c693b5a3f-5afb053c693b5a3f] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{35, 32, 84, 89, 80, 69, 32, 97, 112, 112, 108, 105, 99, 97, 116, 105, 111, 110, 95, 114, 101, 97, 1 (truncated)...]
+
+2024-12-02T13:52:08-05:00	2024-12-02T13:52:08.453-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-8] [674e01d8f1833a345afb053c693b5a3f-5afb053c693b5a3f] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:application/openmetrics-text;version=1.0.0;charset=utf-8' in response
+
+2024-12-02T13:52:08-05:00	2024-12-02T13:52:08.418-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-8] [674e01d8f1833a345afb053c693b5a3f-5afb053c693b5a3f] m.m.a.RequestResponseBodyMethodProcessor : Read "application/octet-stream" to []
+
+2024-12-02T13:52:08-05:00	2024-12-02T13:52:08.418-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-8] [674e01d8f1833a345afb053c693b5a3f-5afb053c693b5a3f] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'prometheus'
+
+2024-12-02T13:52:08-05:00	2024-12-02T13:52:08.417-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-8] [674e01d8f1833a345afb053c693b5a3f-5afb053c693b5a3f] o.s.web.servlet.DispatcherServlet        : GET "/actuator/prometheus", parameters={}
+
+2024-12-02T13:52:07-05:00	2024-12-02T13:52:07.079-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Response 202 ACCEPTED
+
+2024-12-02T13:52:07-05:00	2024-12-02T13:52:07.059-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Writing [[B@1366d99] as "application/json"
+
+2024-12-02T13:52:07-05:00	2024-12-02T13:52:07.059-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+
+2024-12-02T13:52:07-05:00	2024-12-02T13:52:07.059-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : HTTP POST http://localhost:9411/api/v2/spans
+
+2024-12-02T13:52:06-05:00	2024-12-02T13:52:06.378-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-5] [674e01d6be74f266017a464ec746e8df-017a464ec746e8df] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+
+2024-12-02T13:52:06-05:00	2024-12-02T13:52:06.378-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-5] [674e01d6be74f266017a464ec746e8df-017a464ec746e8df] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{35, 32, 84, 89, 80, 69, 32, 97, 112, 112, 108, 105, 99, 97, 116, 105, 111, 110, 95, 114, 101, 97, 1 (truncated)...]
+
+2024-12-02T13:52:06-05:00	2024-12-02T13:52:06.377-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-5] [674e01d6be74f266017a464ec746e8df-017a464ec746e8df] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:application/openmetrics-text;version=1.0.0;charset=utf-8' in response
+
+2024-12-02T13:52:06-05:00	2024-12-02T13:52:06.337-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-5] [674e01d6be74f266017a464ec746e8df-017a464ec746e8df] m.m.a.RequestResponseBodyMethodProcessor : Read "application/octet-stream" to []
+
+2024-12-02T13:52:06-05:00	2024-12-02T13:52:06.337-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-5] [674e01d6be74f266017a464ec746e8df-017a464ec746e8df] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'prometheus'
+
+2024-12-02T13:52:06-05:00	2024-12-02T13:52:06.337-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-5] [674e01d6be74f266017a464ec746e8df-017a464ec746e8df] o.s.web.servlet.DispatcherServlet        : GET "/actuator/prometheus", parameters={}
+
+2024-12-02T13:52:05-05:00	2024-12-02T13:52:05.050-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Response 202 ACCEPTED
+
+2024-12-02T13:52:05-05:00	2024-12-02T13:52:05.033-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Writing [[B@19d56192] as "application/json"
+
+2024-12-02T13:52:05-05:00	2024-12-02T13:52:05.032-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+
+2024-12-02T13:52:05-05:00	2024-12-02T13:52:05.032-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : HTTP POST http://localhost:9411/api/v2/spans
+
+2024-12-02T13:52:04-05:00	2024-12-02T13:52:04.310-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-6] [674e01d46c39df6e294bbc6dfed04e3b-294bbc6dfed04e3b] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+
+2024-12-02T13:52:04-05:00	2024-12-02T13:52:04.310-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-6] [674e01d46c39df6e294bbc6dfed04e3b-294bbc6dfed04e3b] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{35, 32, 84, 89, 80, 69, 32, 97, 112, 112, 108, 105, 99, 97, 116, 105, 111, 110, 95, 114, 101, 97, 1 (truncated)...]
+
+2024-12-02T13:52:04-05:00	2024-12-02T13:52:04.307-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-6] [674e01d46c39df6e294bbc6dfed04e3b-294bbc6dfed04e3b] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:application/openmetrics-text;version=1.0.0;charset=utf-8' in response
+
+2024-12-02T13:52:04-05:00	2024-12-02T13:52:04.257-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-6] [674e01d46c39df6e294bbc6dfed04e3b-294bbc6dfed04e3b] m.m.a.RequestResponseBodyMethodProcessor : Read "application/octet-stream" to []
+
+2024-12-02T13:52:04-05:00	2024-12-02T13:52:04.257-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-6] [674e01d46c39df6e294bbc6dfed04e3b-294bbc6dfed04e3b] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'prometheus'
+
+2024-12-02T13:52:04-05:00	2024-12-02T13:52:04.257-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-6] [674e01d46c39df6e294bbc6dfed04e3b-294bbc6dfed04e3b] o.s.web.servlet.DispatcherServlet        : GET "/actuator/prometheus", parameters={}
+
+2024-12-02T13:52:03-05:00	2024-12-02T13:52:03.011-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Response 202 ACCEPTED
+
+2024-12-02T13:52:02-05:00	2024-12-02T13:52:02.994-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Writing [[B@49c72ec7] as "application/json"
+
+2024-12-02T13:52:02-05:00	2024-12-02T13:52:02.994-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+
+2024-12-02T13:52:02-05:00	2024-12-02T13:52:02.994-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : HTTP POST http://localhost:9411/api/v2/spans
+
+2024-12-02T13:52:02-05:00	2024-12-02T13:52:02.224-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-4] [674e01d2f35c624d65d659adfa186b9f-65d659adfa186b9f] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+
+2024-12-02T13:52:02-05:00	2024-12-02T13:52:02.223-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-4] [674e01d2f35c624d65d659adfa186b9f-65d659adfa186b9f] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{35, 32, 84, 89, 80, 69, 32, 97, 112, 112, 108, 105, 99, 97, 116, 105, 111, 110, 95, 114, 101, 97, 1 (truncated)...]
+
+2024-12-02T13:52:02-05:00	2024-12-02T13:52:02.222-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-4] [674e01d2f35c624d65d659adfa186b9f-65d659adfa186b9f] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:application/openmetrics-text;version=1.0.0;charset=utf-8' in response
+
+2024-12-02T13:52:02-05:00	2024-12-02T13:52:02.177-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-4] [674e01d2f35c624d65d659adfa186b9f-65d659adfa186b9f] m.m.a.RequestResponseBodyMethodProcessor : Read "application/octet-stream" to []
+
+2024-12-02T13:52:02-05:00	2024-12-02T13:52:02.177-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-4] [674e01d2f35c624d65d659adfa186b9f-65d659adfa186b9f] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'prometheus'
+
+2024-12-02T13:52:02-05:00	2024-12-02T13:52:02.177-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-4] [674e01d2f35c624d65d659adfa186b9f-65d659adfa186b9f] o.s.web.servlet.DispatcherServlet        : GET "/actuator/prometheus", parameters={}
+
+2024-12-02T13:52:00-05:00	2024-12-02T13:52:00.968-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Response 202 ACCEPTED
+
+2024-12-02T13:52:00-05:00	2024-12-02T13:52:00.951-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Writing [[B@4b2a55f1] as "application/json"
+
+2024-12-02T13:52:00-05:00	2024-12-02T13:52:00.951-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+
+2024-12-02T13:52:00-05:00	2024-12-02T13:52:00.951-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : HTTP POST http://localhost:9411/api/v2/spans
+
+2024-12-02T13:52:00-05:00	2024-12-02T13:52:00.158-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-3] [674e01d0cb29d4119d3b32fee3232faf-9d3b32fee3232faf] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+
+2024-12-02T13:52:00-05:00	2024-12-02T13:52:00.158-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-3] [674e01d0cb29d4119d3b32fee3232faf-9d3b32fee3232faf] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{35, 32, 84, 89, 80, 69, 32, 97, 112, 112, 108, 105, 99, 97, 116, 105, 111, 110, 95, 114, 101, 97, 1 (truncated)...]
+
+2024-12-02T13:52:00-05:00	2024-12-02T13:52:00.157-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-3] [674e01d0cb29d4119d3b32fee3232faf-9d3b32fee3232faf] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:application/openmetrics-text;version=1.0.0;charset=utf-8' in response
+
+2024-12-02T13:52:00-05:00	2024-12-02T13:52:00.100-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-3] [674e01d0cb29d4119d3b32fee3232faf-9d3b32fee3232faf] m.m.a.RequestResponseBodyMethodProcessor : Read "application/octet-stream" to []
+
+2024-12-02T13:52:00-05:00	2024-12-02T13:52:00.100-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-3] [674e01d0cb29d4119d3b32fee3232faf-9d3b32fee3232faf] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'prometheus'
+
+2024-12-02T13:52:00-05:00	2024-12-02T13:52:00.099-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-3] [674e01d0cb29d4119d3b32fee3232faf-9d3b32fee3232faf] o.s.web.servlet.DispatcherServlet        : GET "/actuator/prometheus", parameters={}
+
+2024-12-02T13:51:58-05:00	2024-12-02T13:51:58.938-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Response 202 ACCEPTED
+
+2024-12-02T13:51:58-05:00	2024-12-02T13:51:58.920-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Writing [[B@7a255cf9] as "application/json"
+
+2024-12-02T13:51:58-05:00	2024-12-02T13:51:58.920-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+
+2024-12-02T13:51:58-05:00	2024-12-02T13:51:58.920-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : HTTP POST http://localhost:9411/api/v2/spans
+
+2024-12-02T13:51:58-05:00	2024-12-02T13:51:58.057-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-2] [674e01ce9612862d160041b6323a854e-160041b6323a854e] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+
+2024-12-02T13:51:58-05:00	2024-12-02T13:51:58.057-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-2] [674e01ce9612862d160041b6323a854e-160041b6323a854e] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{35, 32, 84, 89, 80, 69, 32, 97, 112, 112, 108, 105, 99, 97, 116, 105, 111, 110, 95, 114, 101, 97, 1 (truncated)...]
+
+2024-12-02T13:51:58-05:00	2024-12-02T13:51:58.056-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-2] [674e01ce9612862d160041b6323a854e-160041b6323a854e] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:application/openmetrics-text;version=1.0.0;charset=utf-8' in response
+
+2024-12-02T13:51:58-05:00	2024-12-02T13:51:58.018-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-2] [674e01ce9612862d160041b6323a854e-160041b6323a854e] m.m.a.RequestResponseBodyMethodProcessor : Read "application/octet-stream" to []
+
+2024-12-02T13:51:58-05:00	2024-12-02T13:51:58.018-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-2] [674e01ce9612862d160041b6323a854e-160041b6323a854e] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'prometheus'
+
+2024-12-02T13:51:58-05:00	2024-12-02T13:51:58.018-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-2] [674e01ce9612862d160041b6323a854e-160041b6323a854e] o.s.web.servlet.DispatcherServlet        : GET "/actuator/prometheus", parameters={}
+
+2024-12-02T13:51:56-05:00	2024-12-02T13:51:56.899-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Response 202 ACCEPTED
+
+2024-12-02T13:51:56-05:00	2024-12-02T13:51:56.882-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Writing [[B@9017dde] as "application/json"
+
+2024-12-02T13:51:56-05:00	2024-12-02T13:51:56.882-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+
+2024-12-02T13:51:56-05:00	2024-12-02T13:51:56.881-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : HTTP POST http://localhost:9411/api/v2/spans
+
+2024-12-02T13:51:55-05:00	2024-12-02T13:51:55.983-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-10] [674e01cb2052356c193d5f04499205e0-193d5f04499205e0] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+
+2024-12-02T13:51:55-05:00	2024-12-02T13:51:55.982-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-10] [674e01cb2052356c193d5f04499205e0-193d5f04499205e0] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{35, 32, 84, 89, 80, 69, 32, 97, 112, 112, 108, 105, 99, 97, 116, 105, 111, 110, 95, 114, 101, 97, 1 (truncated)...]
+
+2024-12-02T13:51:55-05:00	2024-12-02T13:51:55.981-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-10] [674e01cb2052356c193d5f04499205e0-193d5f04499205e0] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:application/openmetrics-text;version=1.0.0;charset=utf-8' in response
+
+2024-12-02T13:51:55-05:00	2024-12-02T13:51:55.940-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-10] [674e01cb2052356c193d5f04499205e0-193d5f04499205e0] m.m.a.RequestResponseBodyMethodProcessor : Read "application/octet-stream" to []
+
+2024-12-02T13:51:55-05:00	2024-12-02T13:51:55.940-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-10] [674e01cb2052356c193d5f04499205e0-193d5f04499205e0] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'prometheus'
+
+2024-12-02T13:51:55-05:00	2024-12-02T13:51:55.939-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-10] [674e01cb2052356c193d5f04499205e0-193d5f04499205e0] o.s.web.servlet.DispatcherServlet        : GET "/actuator/prometheus", parameters={}
+
+2024-12-02T13:51:54-05:00	2024-12-02T13:51:54.868-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Response 202 ACCEPTED
+
+2024-12-02T13:51:54-05:00	2024-12-02T13:51:54.841-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Writing [[B@3be459ce] as "application/json"
+
+2024-12-02T13:51:54-05:00	2024-12-02T13:51:54.841-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+
+2024-12-02T13:51:54-05:00	2024-12-02T13:51:54.841-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : HTTP POST http://localhost:9411/api/v2/spans
+
+2024-12-02T13:51:53-05:00	2024-12-02T13:51:53.906-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-1] [674e01c91d64766f19746c2b21c5c831-19746c2b21c5c831] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+
+2024-12-02T13:51:53-05:00	2024-12-02T13:51:53.906-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-1] [674e01c91d64766f19746c2b21c5c831-19746c2b21c5c831] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{35, 32, 84, 89, 80, 69, 32, 97, 112, 112, 108, 105, 99, 97, 116, 105, 111, 110, 95, 114, 101, 97, 1 (truncated)...]
+
+2024-12-02T13:51:53-05:00	2024-12-02T13:51:53.904-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-1] [674e01c91d64766f19746c2b21c5c831-19746c2b21c5c831] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:application/openmetrics-text;version=1.0.0;charset=utf-8' in response
+
+2024-12-02T13:51:53-05:00	2024-12-02T13:51:53.860-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-1] [674e01c91d64766f19746c2b21c5c831-19746c2b21c5c831] m.m.a.RequestResponseBodyMethodProcessor : Read "application/octet-stream" to []
+
+2024-12-02T13:51:53-05:00	2024-12-02T13:51:53.860-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-1] [674e01c91d64766f19746c2b21c5c831-19746c2b21c5c831] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'prometheus'
+
+2024-12-02T13:51:53-05:00	2024-12-02T13:51:53.859-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-1] [674e01c91d64766f19746c2b21c5c831-19746c2b21c5c831] o.s.web.servlet.DispatcherServlet        : GET "/actuator/prometheus", parameters={}
+
+2024-12-02T13:51:52-05:00	2024-12-02T13:51:52.813-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Response 202 ACCEPTED
+
+2024-12-02T13:51:52-05:00	2024-12-02T13:51:52.796-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Writing [[B@748b93f3] as "application/json"
+
+2024-12-02T13:51:52-05:00	2024-12-02T13:51:52.796-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+
+2024-12-02T13:51:52-05:00	2024-12-02T13:51:52.796-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : HTTP POST http://localhost:9411/api/v2/spans
+
+2024-12-02T13:51:51-05:00	2024-12-02T13:51:51.827-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-9] [674e01c71dc26ff41516bd76a2dc38b2-1516bd76a2dc38b2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+
+2024-12-02T13:51:51-05:00	2024-12-02T13:51:51.827-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-9] [674e01c71dc26ff41516bd76a2dc38b2-1516bd76a2dc38b2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{35, 32, 84, 89, 80, 69, 32, 97, 112, 112, 108, 105, 99, 97, 116, 105, 111, 110, 95, 114, 101, 97, 1 (truncated)...]
+
+2024-12-02T13:51:51-05:00	2024-12-02T13:51:51.825-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-9] [674e01c71dc26ff41516bd76a2dc38b2-1516bd76a2dc38b2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:application/openmetrics-text;version=1.0.0;charset=utf-8' in response
+
+2024-12-02T13:51:51-05:00	2024-12-02T13:51:51.782-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-9] [674e01c71dc26ff41516bd76a2dc38b2-1516bd76a2dc38b2] m.m.a.RequestResponseBodyMethodProcessor : Read "application/octet-stream" to []
+
+2024-12-02T13:51:51-05:00	2024-12-02T13:51:51.782-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-9] [674e01c71dc26ff41516bd76a2dc38b2-1516bd76a2dc38b2] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'prometheus'
+
+2024-12-02T13:51:51-05:00	2024-12-02T13:51:51.781-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-9] [674e01c71dc26ff41516bd76a2dc38b2-1516bd76a2dc38b2] o.s.web.servlet.DispatcherServlet        : GET "/actuator/prometheus", parameters={}
+
+2024-12-02T13:51:50-05:00	2024-12-02T13:51:50.773-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Response 202 ACCEPTED
+
+2024-12-02T13:51:50-05:00	2024-12-02T13:51:50.755-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Writing [[B@b772408] as "application/json"
+
+2024-12-02T13:51:50-05:00	2024-12-02T13:51:50.755-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+
+2024-12-02T13:51:50-05:00	2024-12-02T13:51:50.755-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : HTTP POST http://localhost:9411/api/v2/spans
+
+2024-12-02T13:51:49-05:00	2024-12-02T13:51:49.769-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-7] [674e01c543bad2b7074ae91b2e296e2e-074ae91b2e296e2e] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+
+2024-12-02T13:51:49-05:00	2024-12-02T13:51:49.769-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-7] [674e01c543bad2b7074ae91b2e296e2e-074ae91b2e296e2e] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{35, 32, 84, 89, 80, 69, 32, 97, 112, 112, 108, 105, 99, 97, 116, 105, 111, 110, 95, 114, 101, 97, 1 (truncated)...]
+
+2024-12-02T13:51:49-05:00	2024-12-02T13:51:49.767-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-7] [674e01c543bad2b7074ae91b2e296e2e-074ae91b2e296e2e] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:application/openmetrics-text;version=1.0.0;charset=utf-8' in response
+
+2024-12-02T13:51:49-05:00	2024-12-02T13:51:49.703-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-7] [674e01c543bad2b7074ae91b2e296e2e-074ae91b2e296e2e] m.m.a.RequestResponseBodyMethodProcessor : Read "application/octet-stream" to []
+
+2024-12-02T13:51:49-05:00	2024-12-02T13:51:49.703-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-7] [674e01c543bad2b7074ae91b2e296e2e-074ae91b2e296e2e] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'prometheus'
+
+2024-12-02T13:51:49-05:00	2024-12-02T13:51:49.703-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-7] [674e01c543bad2b7074ae91b2e296e2e-074ae91b2e296e2e] o.s.web.servlet.DispatcherServlet        : GET "/actuator/prometheus", parameters={}
+
+2024-12-02T13:51:47-05:00	2024-12-02T13:51:47.741-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Response 202 ACCEPTED
+
+2024-12-02T13:51:47-05:00	2024-12-02T13:51:47.723-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Writing [[B@5e823458] as "application/json"
+
+2024-12-02T13:51:47-05:00	2024-12-02T13:51:47.723-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+
+2024-12-02T13:51:47-05:00	2024-12-02T13:51:47.723-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : HTTP POST http://localhost:9411/api/v2/spans
+
+2024-12-02T13:51:47-05:00	2024-12-02T13:51:47.672-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-8] [674e01c32bab6bda9b7097f23aa0ffc4-9b7097f23aa0ffc4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+
+2024-12-02T13:51:47-05:00	2024-12-02T13:51:47.671-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-8] [674e01c32bab6bda9b7097f23aa0ffc4-9b7097f23aa0ffc4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{35, 32, 84, 89, 80, 69, 32, 97, 112, 112, 108, 105, 99, 97, 116, 105, 111, 110, 95, 114, 101, 97, 1 (truncated)...]
+
+2024-12-02T13:51:47-05:00	2024-12-02T13:51:47.669-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-8] [674e01c32bab6bda9b7097f23aa0ffc4-9b7097f23aa0ffc4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:application/openmetrics-text;version=1.0.0;charset=utf-8' in response
+
+2024-12-02T13:51:47-05:00	2024-12-02T13:51:47.624-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-8] [674e01c32bab6bda9b7097f23aa0ffc4-9b7097f23aa0ffc4] m.m.a.RequestResponseBodyMethodProcessor : Read "application/octet-stream" to []
+
+2024-12-02T13:51:47-05:00	2024-12-02T13:51:47.624-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-8] [674e01c32bab6bda9b7097f23aa0ffc4-9b7097f23aa0ffc4] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'prometheus'
+
+2024-12-02T13:51:47-05:00	2024-12-02T13:51:47.624-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-8] [674e01c32bab6bda9b7097f23aa0ffc4-9b7097f23aa0ffc4] o.s.web.servlet.DispatcherServlet        : GET "/actuator/prometheus", parameters={}
+
+2024-12-02T13:51:45-05:00	2024-12-02T13:51:45.697-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Response 202 ACCEPTED
+
+2024-12-02T13:51:45-05:00	2024-12-02T13:51:45.676-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Writing [[B@28cd8d5b] as "application/json"
+
+2024-12-02T13:51:45-05:00	2024-12-02T13:51:45.676-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+
+2024-12-02T13:51:45-05:00	2024-12-02T13:51:45.676-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : HTTP POST http://localhost:9411/api/v2/spans
+
+2024-12-02T13:51:45-05:00	2024-12-02T13:51:45.595-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-5] [674e01c1fb84a2759503bf99b6e7327e-9503bf99b6e7327e] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+
+2024-12-02T13:51:45-05:00	2024-12-02T13:51:45.595-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-5] [674e01c1fb84a2759503bf99b6e7327e-9503bf99b6e7327e] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{35, 32, 84, 89, 80, 69, 32, 97, 112, 112, 108, 105, 99, 97, 116, 105, 111, 110, 95, 114, 101, 97, 1 (truncated)...]
+
+2024-12-02T13:51:45-05:00	2024-12-02T13:51:45.594-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-5] [674e01c1fb84a2759503bf99b6e7327e-9503bf99b6e7327e] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:application/openmetrics-text;version=1.0.0;charset=utf-8' in response
+
+2024-12-02T13:51:45-05:00	2024-12-02T13:51:45.545-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-5] [674e01c1fb84a2759503bf99b6e7327e-9503bf99b6e7327e] m.m.a.RequestResponseBodyMethodProcessor : Read "application/octet-stream" to []
+
+2024-12-02T13:51:45-05:00	2024-12-02T13:51:45.545-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-5] [674e01c1fb84a2759503bf99b6e7327e-9503bf99b6e7327e] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'prometheus'
+
+2024-12-02T13:51:45-05:00	2024-12-02T13:51:45.545-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-5] [674e01c1fb84a2759503bf99b6e7327e-9503bf99b6e7327e] o.s.web.servlet.DispatcherServlet        : GET "/actuator/prometheus", parameters={}
+
+2024-12-02T13:51:43-05:00	2024-12-02T13:51:43.661-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Response 202 ACCEPTED
+
+2024-12-02T13:51:43-05:00	2024-12-02T13:51:43.643-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Writing [[B@417f660] as "application/json"
+
+2024-12-02T13:51:43-05:00	2024-12-02T13:51:43.643-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+
+2024-12-02T13:51:43-05:00	2024-12-02T13:51:43.643-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : HTTP POST http://localhost:9411/api/v2/spans
+
+2024-12-02T13:51:43-05:00	2024-12-02T13:51:43.502-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-6] [674e01bf77b24d55a1f42332a03772e8-a1f42332a03772e8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+
+2024-12-02T13:51:43-05:00	2024-12-02T13:51:43.502-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-6] [674e01bf77b24d55a1f42332a03772e8-a1f42332a03772e8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{35, 32, 84, 89, 80, 69, 32, 97, 112, 112, 108, 105, 99, 97, 116, 105, 111, 110, 95, 114, 101, 97, 1 (truncated)...]
+
+2024-12-02T13:51:43-05:00	2024-12-02T13:51:43.500-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-6] [674e01bf77b24d55a1f42332a03772e8-a1f42332a03772e8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:application/openmetrics-text;version=1.0.0;charset=utf-8' in response
+
+2024-12-02T13:51:43-05:00	2024-12-02T13:51:43.466-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-6] [674e01bf77b24d55a1f42332a03772e8-a1f42332a03772e8] m.m.a.RequestResponseBodyMethodProcessor : Read "application/octet-stream" to []
+
+2024-12-02T13:51:43-05:00	2024-12-02T13:51:43.466-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-6] [674e01bf77b24d55a1f42332a03772e8-a1f42332a03772e8] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'prometheus'
+
+2024-12-02T13:51:43-05:00	2024-12-02T13:51:43.466-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-6] [674e01bf77b24d55a1f42332a03772e8-a1f42332a03772e8] o.s.web.servlet.DispatcherServlet        : GET "/actuator/prometheus", parameters={}
+
+2024-12-02T13:51:41-05:00	2024-12-02T13:51:41.615-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Response 202 ACCEPTED
+
+2024-12-02T13:51:41-05:00	2024-12-02T13:51:41.599-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Writing [[B@1eb9633b] as "application/json"
+
+2024-12-02T13:51:41-05:00	2024-12-02T13:51:41.599-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+
+2024-12-02T13:51:41-05:00	2024-12-02T13:51:41.598-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : HTTP POST http://localhost:9411/api/v2/spans
+
+2024-12-02T13:51:41-05:00	2024-12-02T13:51:41.428-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-4] [674e01bde2ef9f21eac8884e86656aa4-eac8884e86656aa4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+
+2024-12-02T13:51:41-05:00	2024-12-02T13:51:41.427-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-4] [674e01bde2ef9f21eac8884e86656aa4-eac8884e86656aa4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{35, 32, 84, 89, 80, 69, 32, 97, 112, 112, 108, 105, 99, 97, 116, 105, 111, 110, 95, 114, 101, 97, 1 (truncated)...]
+
+2024-12-02T13:51:41-05:00	2024-12-02T13:51:41.426-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-4] [674e01bde2ef9f21eac8884e86656aa4-eac8884e86656aa4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:application/openmetrics-text;version=1.0.0;charset=utf-8' in response
+
+2024-12-02T13:51:41-05:00	2024-12-02T13:51:41.387-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-4] [674e01bde2ef9f21eac8884e86656aa4-eac8884e86656aa4] m.m.a.RequestResponseBodyMethodProcessor : Read "application/octet-stream" to []
+
+2024-12-02T13:51:41-05:00	2024-12-02T13:51:41.387-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-4] [674e01bde2ef9f21eac8884e86656aa4-eac8884e86656aa4] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'prometheus'
+
+2024-12-02T13:51:41-05:00	2024-12-02T13:51:41.387-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-4] [674e01bde2ef9f21eac8884e86656aa4-eac8884e86656aa4] o.s.web.servlet.DispatcherServlet        : GET "/actuator/prometheus", parameters={}
+
+2024-12-02T13:51:39-05:00	2024-12-02T13:51:39.579-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Response 202 ACCEPTED
+
+2024-12-02T13:51:39-05:00	2024-12-02T13:51:39.562-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Writing [[B@5dd57d9f] as "application/json"
+
+2024-12-02T13:51:39-05:00	2024-12-02T13:51:39.562-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+
+2024-12-02T13:51:39-05:00	2024-12-02T13:51:39.562-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : HTTP POST http://localhost:9411/api/v2/spans
+
+2024-12-02T13:51:39-05:00	2024-12-02T13:51:39.358-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-3] [674e01bb094b8ecc79ba1e7b7cd3c91c-79ba1e7b7cd3c91c] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+
+2024-12-02T13:51:39-05:00	2024-12-02T13:51:39.358-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-3] [674e01bb094b8ecc79ba1e7b7cd3c91c-79ba1e7b7cd3c91c] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{35, 32, 84, 89, 80, 69, 32, 97, 112, 112, 108, 105, 99, 97, 116, 105, 111, 110, 95, 114, 101, 97, 1 (truncated)...]
+
+2024-12-02T13:51:39-05:00	2024-12-02T13:51:39.356-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-3] [674e01bb094b8ecc79ba1e7b7cd3c91c-79ba1e7b7cd3c91c] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:application/openmetrics-text;version=1.0.0;charset=utf-8' in response
+
+2024-12-02T13:51:39-05:00	2024-12-02T13:51:39.308-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-3] [674e01bb094b8ecc79ba1e7b7cd3c91c-79ba1e7b7cd3c91c] m.m.a.RequestResponseBodyMethodProcessor : Read "application/octet-stream" to []
+
+2024-12-02T13:51:39-05:00	2024-12-02T13:51:39.308-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-3] [674e01bb094b8ecc79ba1e7b7cd3c91c-79ba1e7b7cd3c91c] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'prometheus'
+
+2024-12-02T13:51:39-05:00	2024-12-02T13:51:39.307-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-3] [674e01bb094b8ecc79ba1e7b7cd3c91c-79ba1e7b7cd3c91c] o.s.web.servlet.DispatcherServlet        : GET "/actuator/prometheus", parameters={}
+
+2024-12-02T13:51:37-05:00	2024-12-02T13:51:37.540-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Response 202 ACCEPTED
+
+2024-12-02T13:51:37-05:00	2024-12-02T13:51:37.521-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Writing [[B@559f2d34] as "application/json"
+
+2024-12-02T13:51:37-05:00	2024-12-02T13:51:37.521-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+
+2024-12-02T13:51:37-05:00	2024-12-02T13:51:37.521-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : HTTP POST http://localhost:9411/api/v2/spans
+
+2024-12-02T13:51:37-05:00	2024-12-02T13:51:37.271-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-2] [674e01b9abfe923be46592a0bd7f809f-e46592a0bd7f809f] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+
+2024-12-02T13:51:37-05:00	2024-12-02T13:51:37.270-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-2] [674e01b9abfe923be46592a0bd7f809f-e46592a0bd7f809f] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{35, 32, 84, 89, 80, 69, 32, 97, 112, 112, 108, 105, 99, 97, 116, 105, 111, 110, 95, 114, 101, 97, 1 (truncated)...]
+
+2024-12-02T13:51:37-05:00	2024-12-02T13:51:37.269-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-2] [674e01b9abfe923be46592a0bd7f809f-e46592a0bd7f809f] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:application/openmetrics-text;version=1.0.0;charset=utf-8' in response
+
+2024-12-02T13:51:37-05:00	2024-12-02T13:51:37.227-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-2] [674e01b9abfe923be46592a0bd7f809f-e46592a0bd7f809f] m.m.a.RequestResponseBodyMethodProcessor : Read "application/octet-stream" to []
+
+2024-12-02T13:51:37-05:00	2024-12-02T13:51:37.226-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-2] [674e01b9abfe923be46592a0bd7f809f-e46592a0bd7f809f] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'prometheus'
+
+2024-12-02T13:51:37-05:00	2024-12-02T13:51:37.226-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-2] [674e01b9abfe923be46592a0bd7f809f-e46592a0bd7f809f] o.s.web.servlet.DispatcherServlet        : GET "/actuator/prometheus", parameters={}
+
+2024-12-02T13:51:35-05:00	2024-12-02T13:51:35.500-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Response 202 ACCEPTED
+
+2024-12-02T13:51:35-05:00	2024-12-02T13:51:35.482-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Writing [[B@3025423e] as "application/json"
+
+2024-12-02T13:51:35-05:00	2024-12-02T13:51:35.482-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+
+2024-12-02T13:51:35-05:00	2024-12-02T13:51:35.481-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : HTTP POST http://localhost:9411/api/v2/spans
+
+2024-12-02T13:51:35-05:00	2024-12-02T13:51:35.184-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-10] [674e01b74ba3905403b71701346ef1e7-03b71701346ef1e7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+
+2024-12-02T13:51:35-05:00	2024-12-02T13:51:35.183-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-10] [674e01b74ba3905403b71701346ef1e7-03b71701346ef1e7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{35, 32, 84, 89, 80, 69, 32, 97, 112, 112, 108, 105, 99, 97, 116, 105, 111, 110, 95, 114, 101, 97, 1 (truncated)...]
+
+2024-12-02T13:51:35-05:00	2024-12-02T13:51:35.182-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-10] [674e01b74ba3905403b71701346ef1e7-03b71701346ef1e7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:application/openmetrics-text;version=1.0.0;charset=utf-8' in response
+
+2024-12-02T13:51:35-05:00	2024-12-02T13:51:35.147-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-10] [674e01b74ba3905403b71701346ef1e7-03b71701346ef1e7] m.m.a.RequestResponseBodyMethodProcessor : Read "application/octet-stream" to []
+
+2024-12-02T13:51:35-05:00	2024-12-02T13:51:35.147-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-10] [674e01b74ba3905403b71701346ef1e7-03b71701346ef1e7] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'prometheus'
+
+2024-12-02T13:51:35-05:00	2024-12-02T13:51:35.147-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-10] [674e01b74ba3905403b71701346ef1e7-03b71701346ef1e7] o.s.web.servlet.DispatcherServlet        : GET "/actuator/prometheus", parameters={}
+
+2024-12-02T13:51:33-05:00	2024-12-02T13:51:33.460-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Response 202 ACCEPTED
+
+2024-12-02T13:51:33-05:00	2024-12-02T13:51:33.440-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Writing [[B@377e8a34] as "application/json"
+
+2024-12-02T13:51:33-05:00	2024-12-02T13:51:33.440-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+
+2024-12-02T13:51:33-05:00	2024-12-02T13:51:33.440-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : HTTP POST http://localhost:9411/api/v2/spans
+
+2024-12-02T13:51:33-05:00	2024-12-02T13:51:33.108-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-1] [674e01b5136b002221d586ea98bdd07d-21d586ea98bdd07d] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+
+2024-12-02T13:51:33-05:00	2024-12-02T13:51:33.108-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-1] [674e01b5136b002221d586ea98bdd07d-21d586ea98bdd07d] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{35, 32, 84, 89, 80, 69, 32, 97, 112, 112, 108, 105, 99, 97, 116, 105, 111, 110, 95, 114, 101, 97, 1 (truncated)...]
+
+2024-12-02T13:51:33-05:00	2024-12-02T13:51:33.107-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-1] [674e01b5136b002221d586ea98bdd07d-21d586ea98bdd07d] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:application/openmetrics-text;version=1.0.0;charset=utf-8' in response
+
+2024-12-02T13:51:33-05:00	2024-12-02T13:51:33.068-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-1] [674e01b5136b002221d586ea98bdd07d-21d586ea98bdd07d] m.m.a.RequestResponseBodyMethodProcessor : Read "application/octet-stream" to []
+
+2024-12-02T13:51:33-05:00	2024-12-02T13:51:33.068-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-1] [674e01b5136b002221d586ea98bdd07d-21d586ea98bdd07d] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'prometheus'
+
+2024-12-02T13:51:33-05:00	2024-12-02T13:51:33.067-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-1] [674e01b5136b002221d586ea98bdd07d-21d586ea98bdd07d] o.s.web.servlet.DispatcherServlet        : GET "/actuator/prometheus", parameters={}
+
+2024-12-02T13:51:31-05:00	2024-12-02T13:51:31.431-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Response 202 ACCEPTED
+
+2024-12-02T13:51:31-05:00	2024-12-02T13:51:31.409-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Writing [[B@1c028810] as "application/json"
+
+2024-12-02T13:51:31-05:00	2024-12-02T13:51:31.409-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+
+2024-12-02T13:51:31-05:00	2024-12-02T13:51:31.409-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : HTTP POST http://localhost:9411/api/v2/spans
+
+2024-12-02T13:51:31-05:00	2024-12-02T13:51:31.033-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-9] [674e01b2c083a03386bcf71a577e7bff-86bcf71a577e7bff] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+
+2024-12-02T13:51:31-05:00	2024-12-02T13:51:31.032-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-9] [674e01b2c083a03386bcf71a577e7bff-86bcf71a577e7bff] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{35, 32, 84, 89, 80, 69, 32, 97, 112, 112, 108, 105, 99, 97, 116, 105, 111, 110, 95, 114, 101, 97, 1 (truncated)...]
+
+2024-12-02T13:51:31-05:00	2024-12-02T13:51:31.031-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-9] [674e01b2c083a03386bcf71a577e7bff-86bcf71a577e7bff] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:application/openmetrics-text;version=1.0.0;charset=utf-8' in response
+
+2024-12-02T13:51:30-05:00	2024-12-02T13:51:30.993-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-9] [674e01b2c083a03386bcf71a577e7bff-86bcf71a577e7bff] m.m.a.RequestResponseBodyMethodProcessor : Read "application/octet-stream" to []
+
+2024-12-02T13:51:30-05:00	2024-12-02T13:51:30.993-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-9] [674e01b2c083a03386bcf71a577e7bff-86bcf71a577e7bff] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'prometheus'
+
+2024-12-02T13:51:30-05:00	2024-12-02T13:51:30.993-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-9] [674e01b2c083a03386bcf71a577e7bff-86bcf71a577e7bff] o.s.web.servlet.DispatcherServlet        : GET "/actuator/prometheus", parameters={}
+
+2024-12-02T13:51:29-05:00	2024-12-02T13:51:29.402-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Response 202 ACCEPTED
+
+2024-12-02T13:51:29-05:00	2024-12-02T13:51:29.397-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Writing [[B@32eae6a8] as "application/json"
+
+2024-12-02T13:51:29-05:00	2024-12-02T13:51:29.397-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+
+2024-12-02T13:51:29-05:00	2024-12-02T13:51:29.397-05:00 DEBUG 33656 --- [product-service] [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [                                                 ] o.s.web.client.RestTemplate              : HTTP POST http://localhost:9411/api/v2/spans
+
+2024-12-02T13:51:29-05:00	2024-12-02T13:51:29.004-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-7] [674e01b08f70949e87f275d35d7cb018-87f275d35d7cb018] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+
+2024-12-02T13:51:29-05:00	2024-12-02T13:51:29.003-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-7] [674e01b08f70949e87f275d35d7cb018-87f275d35d7cb018] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{35, 32, 84, 89, 80, 69, 32, 97, 112, 112, 108, 105, 99, 97, 116, 105, 111, 110, 95, 114, 101, 97, 1 (truncated)...]
+
+2024-12-02T13:51:29-05:00	2024-12-02T13:51:29.001-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-7] [674e01b08f70949e87f275d35d7cb018-87f275d35d7cb018] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:application/openmetrics-text;version=1.0.0;charset=utf-8' in response
+
+2024-12-02T13:51:28-05:00	2024-12-02T13:51:28.919-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-7] [674e01b08f70949e87f275d35d7cb018-87f275d35d7cb018] m.m.a.RequestResponseBodyMethodProcessor : Read "application/octet-stream" to []
+
+2024-12-02T13:51:28-05:00	2024-12-02T13:51:28.919-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-7] [674e01b08f70949e87f275d35d7cb018-87f275d35d7cb018] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'prometheus'
+
+2024-12-02T13:51:28-05:00	2024-12-02T13:51:28.919-05:00 DEBUG 33656 --- [product-service] [http-nio-8080-exec-7] [674e01b08f70949e87f275d35d7cb018-87f275d35d7cb018] o.s.web.servlet.DispatcherServlet        : GET "/actuator/prometheus", parameters={}
+

@@ -1,0 +1,5 @@
+server:
+  http_listen_port: 3100
+  log_level: info
+  log_format: json
+  log_output: /var/loki/loki.log  # Rediriger les logs vers un fichier

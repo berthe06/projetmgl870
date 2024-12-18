@@ -1,0 +1,200 @@
+2024-12-17 10:14:53,INFO,2024-12-17 10:14:53,866,,,,,,Starting OrderServiceApplication using Java 21.0.5 with PID 33196 (D:\RECUPERATION\Ets 2024\Automne 2024\MGL870\Projet\order-service\target\classes started by berth in D:\RECUPERATION\Ets 2024\Automne 2024\MGL870\Projet\order-service),
+2024-12-17 10:14:53,INFO,2024-12-17 10:14:53,868,,,,,,No active profile set, falling back to 1 default profile: "default",
+2024-12-17 10:14:54,INFO,2024-12-17 10:14:54,948,,,,,,Bootstrapping Spring Data JPA repositories in DEFAULT mode.,
+2024-12-17 10:14:54,INFO,2024-12-17 10:14:54,989,,,,,,Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interface.,
+2024-12-17 10:14:55,INFO,2024-12-17 10:14:55,195,,,,,,BeanFactory id=d43dbaed-2af1-3a38-98e1-09ac9e1205e4,
+2024-12-17 10:14:56,INFO,2024-12-17 10:14:56,071,,,,,,Tomcat initialized with port 8081 (http),
+2024-12-17 10:14:56,INFO,2024-12-17 10:14:56,089,,,,,,Initializing ProtocolHandler ["http-nio-8081"],
+2024-12-17 10:14:56,INFO,2024-12-17 10:14:56,091,,,,,,Starting service [Tomcat],
+2024-12-17 10:14:56,INFO,2024-12-17 10:14:56,091,,,,,,Starting Servlet engine: [Apache Tomcat/10.1.33],
+2024-12-17 10:14:56,INFO,2024-12-17 10:14:56,163,,,,,,Initializing Spring embedded WebApplicationContext,
+2024-12-17 10:14:56,INFO,2024-12-17 10:14:56,164,,,,,,Root WebApplicationContext: initialization completed in 2068 ms,
+2024-12-17 10:14:57,INFO,2024-12-17 10:14:57,171,,,,,,HikariPool-1 - Starting...,
+2024-12-17 10:14:57,INFO,2024-12-17 10:14:57,441,,,,,,HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7bbe532b,
+2024-12-17 10:14:57,INFO,2024-12-17 10:14:57,444,,,,,,HikariPool-1 - Start completed.,
+2024-12-17 10:14:57,INFO,2024-12-17 10:14:57,484,,,,,,Database: jdbc:mysql://localhost:3306/order_service (MySQL 8.0),
+2024-12-17 10:14:57,INFO,2024-12-17 10:14:57,560,,,,,,Successfully validated 2 migrations (execution time 00:00.054s),
+2024-12-17 10:14:57,INFO,2024-12-17 10:14:57,574,,,,,,Current version of schema `order_service`: 2,
+2024-12-17 10:14:57,WARN,2024-12-17 10:14:57,574,,,,,,Schema `order_service` has a version (2) that is newer than the latest available migration (1) !,
+2024-12-17 10:14:57,INFO,2024-12-17 10:14:57,576,,,,,,Schema `order_service` is up to date. No migration necessary.,
+2024-12-17 10:14:57,INFO,2024-12-17 10:14:57,663,,,,,,HHH000204: Processing PersistenceUnitInfo [name: default],
+2024-12-17 10:14:57,INFO,2024-12-17 10:14:57,697,,,,,,HHH000412: Hibernate ORM core version 6.5.3.Final,
+2024-12-17 10:14:57,INFO,2024-12-17 10:14:57,723,,,,,,HHH000026: Second-level cache disabled,
+2024-12-17 10:14:57,INFO,2024-12-17 10:14:57,916,,,,,,No LoadTimeWeaver setup: ignoring JPA class transformer,
+2024-12-17 10:14:58,INFO,2024-12-17 10:14:58,335,,,,,,HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration),
+2024-12-17 10:14:58,INFO,2024-12-17 10:14:58,336,,,,,,Initialized JPA EntityManagerFactory for persistence unit 'default',
+2024-12-17 10:14:59,WARN,2024-12-17 10:14:59,109,,,,,,spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning,
+2024-12-17 10:15:01,INFO,2024-12-17 10:15:01,767,,,,,,Cannot determine local hostname,
+2024-12-17 10:15:01,INFO,2024-12-17 10:15:01,786,,,,,,Exposing 26 endpoints beneath base path '/actuator',
+2024-12-17 10:15:01,INFO,2024-12-17 10:15:01,830,,,,,,Starting ProtocolHandler ["http-nio-8081"],
+2024-12-17 10:15:01,INFO,2024-12-17 10:15:01,843,,,,,,Tomcat started on port 8081 (http) with context path '/',
+2024-12-17 10:15:02,INFO,2024-12-17 10:15:02,855,,,,,,Cannot determine local hostname,
+2024-12-17 10:15:02,INFO,2024-12-17 10:15:02,866,,,,,,Started OrderServiceApplication in 10.374 seconds (process running for 11.065),
+2024-12-17 10:15:45,INFO,2024-12-17 10:15:45,510,,,,,,Initializing Spring DispatcherServlet 'dispatcherServlet',
+2024-12-17 10:15:45,INFO,2024-12-17 10:15:45,510,,,,,,Initializing Servlet 'dispatcherServlet',
+2024-12-17 10:15:45,INFO,2024-12-17 10:15:45,511,,,,,,Completed initialization in 1 ms,
+2024-12-17 10:15:45,INFO,2024-12-17 10:15:45,930,,,,,,Init duration for springdoc-openapi is: 178 ms,
+2024-12-17 10:15:46,WARN,2024-12-17 10:15:46,611,,,,,,Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.,
+2024-12-17 10:15:46,WARN,2024-12-17 10:15:46,612,,,,,,Dropped 9 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: getsockopt),
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: getsockopt
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:915)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:895)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:830)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:691)
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.ZipkinRestTemplateSender.postSpans(ZipkinRestTemplateSender.java:50)
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.HttpSender.postSpans(HttpSender.java:69)
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.HttpSender.postSpans(HttpSender.java:41)
+	at zipkin2.reporter.BaseHttpSender.send(BaseHttpSender.java:123)
+	at zipkin2.reporter.internal.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:266)
+	at zipkin2.reporter.internal.AsyncReporter$Flusher.run(AsyncReporter.java:352)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:280)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:386)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:408)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1319)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1252)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1138)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1067)
+	at org.springframework.http.client.SimpleClientHttpRequest.executeInternal(SimpleClientHttpRequest.java:79)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:70)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:889)
+	... 9 common frames omitted
+2024-12-17 10:15:57,INFO,2024-12-17 10:15:57,426,,,,,,Fetching all orders from the database,
+2024-12-17 10:15:57,INFO,2024-12-17 10:15:57,513,,,,,,Successfully fetched 7 orders,
+2024-12-17 10:16:12,INFO,2024-12-17 10:16:12,297,,,,,,Fetching all orders from the database,
+2024-12-17 10:16:12,INFO,2024-12-17 10:16:12,300,,,,,,Successfully fetched 7 orders,
+2024-12-17 10:16:12,INFO,2024-12-17 10:16:12,762,,,,,,Fetching all orders from the database,
+2024-12-17 10:16:12,INFO,2024-12-17 10:16:12,766,,,,,,Successfully fetched 7 orders,
+2024-12-17 10:16:12,INFO,2024-12-17 10:16:12,998,,,,,,Fetching all orders from the database,
+2024-12-17 10:16:13,INFO,2024-12-17 10:16:13,002,,,,,,Successfully fetched 7 orders,
+2024-12-17 10:16:13,INFO,2024-12-17 10:16:13,175,,,,,,Fetching all orders from the database,
+2024-12-17 10:16:13,INFO,2024-12-17 10:16:13,178,,,,,,Successfully fetched 7 orders,
+2024-12-17 10:16:13,INFO,2024-12-17 10:16:13,355,,,,,,Fetching all orders from the database,
+2024-12-17 10:16:13,INFO,2024-12-17 10:16:13,359,,,,,,Successfully fetched 7 orders,
+2024-12-17 10:16:13,INFO,2024-12-17 10:16:13,531,,,,,,Fetching all orders from the database,
+2024-12-17 10:16:13,INFO,2024-12-17 10:16:13,535,,,,,,Successfully fetched 7 orders,
+2024-12-17 10:16:13,INFO,2024-12-17 10:16:13,737,,,,,,Fetching all orders from the database,
+2024-12-17 10:16:13,INFO,2024-12-17 10:16:13,741,,,,,,Successfully fetched 7 orders,
+2024-12-17 10:16:13,INFO,2024-12-17 10:16:13,930,,,,,,Fetching all orders from the database,
+2024-12-17 10:16:13,INFO,2024-12-17 10:16:13,933,,,,,,Successfully fetched 7 orders,
+2024-12-17 10:16:14,INFO,2024-12-17 10:16:14,128,,,,,,Fetching all orders from the database,
+2024-12-17 10:16:14,INFO,2024-12-17 10:16:14,132,,,,,,Successfully fetched 7 orders,
+2024-12-17 10:16:14,INFO,2024-12-17 10:16:14,320,,,,,,Fetching all orders from the database,
+2024-12-17 10:16:14,INFO,2024-12-17 10:16:14,327,,,,,,Successfully fetched 7 orders,
+2024-12-17 10:30:28,INFO,2024-12-17 10:30:28,037,,,,,,Fetching all orders from the database,
+2024-12-17 10:30:28,INFO,2024-12-17 10:30:28,041,,,,,,Successfully fetched 7 orders,
+2024-12-17 11:55:59,WARN,2024-12-17 11:55:59,869,,,,,,HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m30s892ms486µs300ns).,
+2024-12-17 15:17:57,WARN,2024-12-17 15:17:57,960,,,,,,HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h22m11s290ms700µs).,
+2024-12-17 15:30:17,WARN,2024-12-17 15:30:17,478,,,,,,HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=49s372ms77µs299ns).,
+2024-12-17 15:42:21,WARN,2024-12-17 15:42:21,729,,,,,,HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m34s119ms566µs300ns).,
+2024-12-17 17:51:08,INFO,2024-12-17 17:51:08,537,,,,,,Closing JPA EntityManagerFactory for persistence unit 'default',
+2024-12-17 17:51:08,INFO,2024-12-17 17:51:08,552,,,,,,HikariPool-1 - Shutdown initiated...,
+2024-12-17 17:51:08,INFO,2024-12-17 17:51:08,566,,,,,,HikariPool-1 - Shutdown completed.,
+2024-12-17 19:25:09,INFO,2024-12-17 19:25:09,838,,,,,,Starting OrderServiceApplication using Java 21.0.5 with PID 13516 (D:\RECUPERATION\Ets 2024\Automne 2024\MGL870\Projet\order-service\target\classes started by berth in D:\RECUPERATION\Ets 2024\Automne 2024\MGL870\Projet\order-service),
+2024-12-17 19:25:09,INFO,2024-12-17 19:25:09,851,,,,,,No active profile set, falling back to 1 default profile: "default",
+2024-12-17 19:25:10,INFO,2024-12-17 19:25:10,910,,,,,,Bootstrapping Spring Data JPA repositories in DEFAULT mode.,
+2024-12-17 19:25:10,INFO,2024-12-17 19:25:10,953,,,,,,Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interface.,
+2024-12-17 19:25:11,INFO,2024-12-17 19:25:11,218,,,,,,BeanFactory id=d43dbaed-2af1-3a38-98e1-09ac9e1205e4,
+2024-12-17 19:25:12,INFO,2024-12-17 19:25:12,015,,,,,,Tomcat initialized with port 8081 (http),
+2024-12-17 19:25:12,INFO,2024-12-17 19:25:12,042,,,,,,Initializing ProtocolHandler ["http-nio-8081"],
+2024-12-17 19:25:12,INFO,2024-12-17 19:25:12,046,,,,,,Starting service [Tomcat],
+2024-12-17 19:25:12,INFO,2024-12-17 19:25:12,047,,,,,,Starting Servlet engine: [Apache Tomcat/10.1.33],
+2024-12-17 19:25:12,INFO,2024-12-17 19:25:12,148,,,,,,Initializing Spring embedded WebApplicationContext,
+2024-12-17 19:25:12,INFO,2024-12-17 19:25:12,149,,,,,,Root WebApplicationContext: initialization completed in 2078 ms,
+2024-12-17 19:25:13,INFO,2024-12-17 19:25:13,178,,,,,,HikariPool-1 - Starting...,
+2024-12-17 19:25:13,INFO,2024-12-17 19:25:13,363,,,,,,HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@28f3a218,
+2024-12-17 19:25:13,INFO,2024-12-17 19:25:13,365,,,,,,HikariPool-1 - Start completed.,
+2024-12-17 19:25:13,INFO,2024-12-17 19:25:13,402,,,,,,Database: jdbc:mysql://localhost:3306/order_service (MySQL 8.0),
+2024-12-17 19:25:13,INFO,2024-12-17 19:25:13,458,,,,,,Successfully validated 2 migrations (execution time 00:00.029s),
+2024-12-17 19:25:13,INFO,2024-12-17 19:25:13,470,,,,,,Current version of schema `order_service`: 2,
+2024-12-17 19:25:13,WARN,2024-12-17 19:25:13,470,,,,,,Schema `order_service` has a version (2) that is newer than the latest available migration (1) !,
+2024-12-17 19:25:13,INFO,2024-12-17 19:25:13,472,,,,,,Schema `order_service` is up to date. No migration necessary.,
+2024-12-17 19:25:13,INFO,2024-12-17 19:25:13,549,,,,,,HHH000204: Processing PersistenceUnitInfo [name: default],
+2024-12-17 19:25:13,INFO,2024-12-17 19:25:13,587,,,,,,HHH000412: Hibernate ORM core version 6.5.3.Final,
+2024-12-17 19:25:13,INFO,2024-12-17 19:25:13,606,,,,,,HHH000026: Second-level cache disabled,
+2024-12-17 19:25:13,INFO,2024-12-17 19:25:13,824,,,,,,No LoadTimeWeaver setup: ignoring JPA class transformer,
+2024-12-17 19:25:14,INFO,2024-12-17 19:25:14,278,,,,,,HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration),
+2024-12-17 19:25:14,INFO,2024-12-17 19:25:14,280,,,,,,Initialized JPA EntityManagerFactory for persistence unit 'default',
+2024-12-17 19:25:14,WARN,2024-12-17 19:25:14,928,,,,,,spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning,
+2024-12-17 19:25:17,INFO,2024-12-17 19:25:17,615,,,,,,Cannot determine local hostname,
+2024-12-17 19:25:17,INFO,2024-12-17 19:25:17,630,,,,,,Exposing 26 endpoints beneath base path '/actuator',
+2024-12-17 19:25:17,INFO,2024-12-17 19:25:17,673,,,,,,Starting ProtocolHandler ["http-nio-8081"],
+2024-12-17 19:25:17,INFO,2024-12-17 19:25:17,683,,,,,,Tomcat started on port 8081 (http) with context path '/',
+2024-12-17 19:25:18,INFO,2024-12-17 19:25:18,705,,,,,,Cannot determine local hostname,
+2024-12-17 19:25:18,INFO,2024-12-17 19:25:18,722,,,,,,Started OrderServiceApplication in 10.195 seconds (process running for 10.917),
+2024-12-17 19:25:29,INFO,2024-12-17 19:25:29,907,,,,,,Initializing Spring DispatcherServlet 'dispatcherServlet',
+2024-12-17 19:25:29,INFO,2024-12-17 19:25:29,908,,,,,,Initializing Servlet 'dispatcherServlet',
+2024-12-17 19:25:29,INFO,2024-12-17 19:25:29,909,,,,,,Completed initialization in 1 ms,
+2024-12-17 20:06:42,INFO,2024-12-17 20:06:42,198,,,,,,Closing JPA EntityManagerFactory for persistence unit 'default',
+2024-12-17 20:06:42,INFO,2024-12-17 20:06:42,207,,,,,,HikariPool-1 - Shutdown initiated...,
+2024-12-17 20:06:42,INFO,2024-12-17 20:06:42,227,,,,,,HikariPool-1 - Shutdown completed.,
+2024-12-17 20:06:46,INFO,2024-12-17 20:06:46,046,,,,,,Starting OrderServiceApplication using Java 21.0.5 with PID 35240 (D:\RECUPERATION\Ets 2024\Automne 2024\MGL870\Projet\order-service\target\classes started by berth in D:\RECUPERATION\Ets 2024\Automne 2024\MGL870\Projet\order-service),
+2024-12-17 20:06:46,INFO,2024-12-17 20:06:46,058,,,,,,No active profile set, falling back to 1 default profile: "default",
+2024-12-17 20:06:47,INFO,2024-12-17 20:06:47,234,,,,,,Bootstrapping Spring Data JPA repositories in DEFAULT mode.,
+2024-12-17 20:06:47,INFO,2024-12-17 20:06:47,270,,,,,,Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interface.,
+2024-12-17 20:06:47,INFO,2024-12-17 20:06:47,515,,,,,,BeanFactory id=d43dbaed-2af1-3a38-98e1-09ac9e1205e4,
+2024-12-17 20:06:48,INFO,2024-12-17 20:06:48,200,,,,,,Tomcat initialized with port 8081 (http),
+2024-12-17 20:06:48,INFO,2024-12-17 20:06:48,223,,,,,,Initializing ProtocolHandler ["http-nio-8081"],
+2024-12-17 20:06:48,INFO,2024-12-17 20:06:48,226,,,,,,Starting service [Tomcat],
+2024-12-17 20:06:48,INFO,2024-12-17 20:06:48,226,,,,,,Starting Servlet engine: [Apache Tomcat/10.1.33],
+2024-12-17 20:06:48,INFO,2024-12-17 20:06:48,315,,,,,,Initializing Spring embedded WebApplicationContext,
+2024-12-17 20:06:48,INFO,2024-12-17 20:06:48,316,,,,,,Root WebApplicationContext: initialization completed in 2005 ms,
+2024-12-17 20:06:49,INFO,2024-12-17 20:06:49,279,,,,,,HikariPool-1 - Starting...,
+2024-12-17 20:06:49,INFO,2024-12-17 20:06:49,466,,,,,,HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6f26e775,
+2024-12-17 20:06:49,INFO,2024-12-17 20:06:49,468,,,,,,HikariPool-1 - Start completed.,
+2024-12-17 20:06:49,INFO,2024-12-17 20:06:49,514,,,,,,Database: jdbc:mysql://localhost:3306/order_service (MySQL 8.0),
+2024-12-17 20:06:49,INFO,2024-12-17 20:06:49,627,,,,,,Successfully validated 2 migrations (execution time 00:00.071s),
+2024-12-17 20:06:49,INFO,2024-12-17 20:06:49,658,,,,,,Current version of schema `order_service`: 2,
+2024-12-17 20:06:49,WARN,2024-12-17 20:06:49,659,,,,,,Schema `order_service` has a version (2) that is newer than the latest available migration (1) !,
+2024-12-17 20:06:49,INFO,2024-12-17 20:06:49,666,,,,,,Schema `order_service` is up to date. No migration necessary.,
+2024-12-17 20:06:49,INFO,2024-12-17 20:06:49,803,,,,,,HHH000204: Processing PersistenceUnitInfo [name: default],
+2024-12-17 20:06:49,INFO,2024-12-17 20:06:49,873,,,,,,HHH000412: Hibernate ORM core version 6.5.3.Final,
+2024-12-17 20:06:49,INFO,2024-12-17 20:06:49,905,,,,,,HHH000026: Second-level cache disabled,
+2024-12-17 20:06:50,INFO,2024-12-17 20:06:50,162,,,,,,No LoadTimeWeaver setup: ignoring JPA class transformer,
+2024-12-17 20:06:50,INFO,2024-12-17 20:06:50,602,,,,,,HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration),
+2024-12-17 20:06:50,INFO,2024-12-17 20:06:50,604,,,,,,Initialized JPA EntityManagerFactory for persistence unit 'default',
+2024-12-17 20:06:51,WARN,2024-12-17 20:06:51,310,,,,,,spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning,
+2024-12-17 20:06:53,INFO,2024-12-17 20:06:53,713,,,,,,Cannot determine local hostname,
+2024-12-17 20:06:53,INFO,2024-12-17 20:06:53,732,,,,,,Exposing 26 endpoints beneath base path '/actuator',
+2024-12-17 20:06:53,INFO,2024-12-17 20:06:53,781,,,,,,Starting ProtocolHandler ["http-nio-8081"],
+2024-12-17 20:06:53,INFO,2024-12-17 20:06:53,791,,,,,,Tomcat started on port 8081 (http) with context path '/',
+2024-12-17 20:06:54,INFO,2024-12-17 20:06:54,807,,,,,,Cannot determine local hostname,
+2024-12-17 20:06:54,INFO,2024-12-17 20:06:54,824,,,,,,Started OrderServiceApplication in 10.073 seconds (process running for 10.804),
+2024-12-17 20:06:55,INFO,2024-12-17 20:06:55,766,,,,,,Initializing Spring DispatcherServlet 'dispatcherServlet',
+2024-12-17 20:06:55,INFO,2024-12-17 20:06:55,766,,,,,,Initializing Servlet 'dispatcherServlet',
+2024-12-17 20:06:55,INFO,2024-12-17 20:06:55,767,,,,,,Completed initialization in 1 ms,
+2024-12-17 20:13:08,WARN,2024-12-17 20:13:08,246,,,,,,Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.,
+2024-12-17 20:13:08,WARN,2024-12-17 20:13:08,247,,,,,,Dropped 1 spans due to InternalServerError(500 Internal Server Error: ""Internal Server Error""),
+org.springframework.web.client.HttpServerErrorException$InternalServerError: 500 Internal Server Error: ""Internal Server Error""
+	at org.springframework.web.client.HttpServerErrorException.create(HttpServerErrorException.java:102)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:186)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:137)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:942)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:891)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:830)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:691)
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.ZipkinRestTemplateSender.postSpans(ZipkinRestTemplateSender.java:50)
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.HttpSender.postSpans(HttpSender.java:69)
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.HttpSender.postSpans(HttpSender.java:41)
+	at zipkin2.reporter.BaseHttpSender.send(BaseHttpSender.java:123)
+	at zipkin2.reporter.internal.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:266)
+	at zipkin2.reporter.internal.AsyncReporter$Flusher.run(AsyncReporter.java:352)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-12-17 20:30:14,INFO,2024-12-17 20:30:14,515,,,,,,Fetching all orders from the database,
+2024-12-17 20:30:14,INFO,2024-12-17 20:30:14,600,,,,,,Successfully fetched 7 orders,
+2024-12-17 20:30:15,INFO,2024-12-17 20:30:15,112,,,,,,Fetching all orders from the database,
+2024-12-17 20:30:15,INFO,2024-12-17 20:30:15,117,,,,,,Successfully fetched 7 orders,
+2024-12-17 21:11:17,INFO,2024-12-17 21:11:17,574,,,,,,Closing JPA EntityManagerFactory for persistence unit 'default',
+2024-12-17 21:11:17,INFO,2024-12-17 21:11:17,578,,,,,,HikariPool-1 - Shutdown initiated...,
+2024-12-17 21:11:17,INFO,2024-12-17 21:11:17,582,,,,,,HikariPool-1 - Shutdown completed.,

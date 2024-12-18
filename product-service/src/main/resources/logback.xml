@@ -1,0 +1,48 @@
+<configuration>
+
+    <!-- Définir une propriété avec le nom du service -->
+    <property name="SERVICE_NAME" value="${service.name:-unknown-service}" />
+
+    <!-- Définir le format des logs CSV -->
+    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+        <!-- Chemin du fichier de log -->
+        <file>logs/product-service-logs.csv</file>
+
+        <!-- Encodage des logs -->
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <!-- Format CSV aligné avec les colonnes attendues -->
+            <pattern>%d{yyyy-MM-dd HH:mm:ss},%p,%d{epoch},%X{ErrorType},%X{SERVICE_NAME},%X{EndPoint},%X{DataVal1},%X{DataVal2},%m,%X{Request_ID}%n</pattern>
+        </encoder>
+        <append>true</append>
+    </appender>
+
+    <!-- Console Appender pour affichage des logs dans la console -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%X{SERVICE_NAME}] [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="LOKI" class="com.github.loki4j.logback.Loki4jAppender">
+        <http>
+            <url>http://localhost:3100/loki/api/v1/push</url>
+        </http>
+        <format>
+            <label>
+                <pattern>%d{yyyy-MM-dd HH:mm:ss},%p,%d{epoch},%X{ErrorType},%X{SERVICE_NAME},%X{EndPoint},%X{DataVal1},%X{DataVal2},%m,%X{Request_ID}%n</pattern>
+            </label>
+            <message>
+                <pattern>${FILE_LOG_PATTERN}</pattern>
+            </message>
+            <sortByTime>true</sortByTime>
+        </format>
+    </appender>
+
+    <!-- Racine des logs : définit les appenders actifs -->
+    <root level="info">
+        <appender-ref ref="FILE"/>
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="LOKI"/>
+    </root>
+
+</configuration>

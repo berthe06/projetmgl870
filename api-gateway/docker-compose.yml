@@ -1,0 +1,103 @@
+version: '4'
+services:
+
+  api-gateway:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: api-gateway-service-container
+    volumes:
+      - ./logs:/usr/share/api-gateway/logs  # Assure-toi que ce dossier contient les logs à ingérer
+    networks:
+      - elk
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.16.1
+    container_name: elasticsearch
+    environment:
+      - discovery.type=single-node
+      - ES_JAVA_OPTS=-Xms512m -Xmx512m
+      - xpack.security.enabled=false  # Désactiver la sécurité pour éviter des problèmes de connexion
+    ports:
+      - '9200:9200'  # Exposer le port Elasticsearch
+    volumes:
+      - esdata:/usr/share/elasticsearch/data  # Persistance des données Elasticsearch
+    networks:
+      - elk
+
+  loki:
+    image: grafana/loki:main
+    command: [ '-config.file=/etc/loki/local-config.yaml' ]
+    ports:
+      - '3100:3100'
+    volumes:
+      - ./docker/loki/local-config.yml:/etc/loki/local-config.yml:ro
+      - ./docker/loki/logs:/var/loki/
+    networks:
+      - elk
+
+  prometheus:
+    image: prom/prometheus:v2.46.0
+    command:
+      - --enable-feature=exemplar-storage
+      - --config.file=/etc/prometheus/prometheus.yml
+    volumes:
+      - ./docker/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+    ports:
+      - '9090:9090'
+    networks:
+      - elk
+
+  tempo:
+    image: grafana/tempo:2.2.2
+    command: [ '-config.file=/etc/tempo.yaml' ]
+    volumes:
+      - ./docker/tempo/tempo.yml:/etc/tempo.yaml:ro
+      - ./docker/tempo/tempo-data:/tmp/tempo
+    ports:
+      - '3101:3100' # Tempo
+      - '9411:9411' # Zipkin
+    networks:
+      - elk
+
+  grafana:
+    image: grafana/grafana:10.1.0
+    container_name: grafana
+    environment:
+      - GF_AUTH_ANONYMOUS_ENABLED=true
+      - GF_AUTH_ANONYMOUS_ORG_ROLE=Admin
+      - GF_AUTH_DISABLE_LOGIN_FORM=true
+    ports:
+      - '3000:3000'  # Exposer le port Grafana
+    volumes:
+      - ./docker/grafana:/etc/grafana/provisioning/datasources:ro
+    networks:
+      - elk
+    depends_on:
+      - elasticsearch  # Grafana dépend d'Elasticsearch pour démarrer
+
+  logstash:
+    image: docker.elastic.co/logstash/logstash:8.16.1
+    container_name: logstash
+    volumes:
+      - ./docker/logstash/ingest_data:/usr/share/logstash/ingest_data  # Mapping du répertoire sur l'hôte
+      - ./docker/logstash/logstash.conf:/usr/share/logstash/logstash.conf:ro  # Configuration Logstash
+      - ./api-gateway/logs:/usr/share/logstash/ingest_data/api-gateway-log
+      - ./product-service/logs:/usr/share/logstash/ingest_data/product-service-logs
+      - ./inventory-service/logs:/usr/share/logstash/ingest_data/inventory-service-logs
+      - ./order-service/logs:/usr/share/logstash/ingest_data/order-service-logs
+      - ./docker/logstash/output_logs:/usr/share/logstash/output_logs  # Dossier pour le fichier CSV
+    ports:
+      - '5000:5000'  # Port de Logstash pour recevoir les logs
+    depends_on:
+      - elasticsearch  # Logstash dépend d'Elasticsearch
+    networks:
+      - elk
+
+networks:
+  elk:
+    driver: bridge
+
+volumes:
+  esdata:
+    driver: local

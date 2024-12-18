@@ -1,0 +1,225 @@
+2024-12-17 10:28:40,,INFO,o.h.validator.internal.util.Version,HV000001: Hibernate Validator 8.0.1.Final,,,
+2024-12-17 10:28:40,,INFO,c.p.m.a.a.ApiGatewayApplication,Starting ApiGatewayApplication using Java 21.0.5 with PID 37200 (D:\RECUPERATION\Ets 2024\Automne 2024\MGL870\Projet\api-gateway\target\classes started by berth in D:\RECUPERATION\Ets 2024\Automne 2024\MGL870\Projet\api-gateway),,,
+2024-12-17 10:28:40,,INFO,c.p.m.a.a.ApiGatewayApplication,No active profile set, falling back to 1 default profile: "default",,,
+2024-12-17 10:28:41,,INFO,o.s.cloud.context.scope.GenericScope,BeanFactory id=6ed491d6-b9c8-37dd-97da-61a6c0f40073,,,
+2024-12-17 10:28:42,,INFO,o.s.b.w.e.tomcat.TomcatWebServer,Tomcat initialized with port 9000 (http),,,
+2024-12-17 10:28:42,,INFO,o.a.coyote.http11.Http11NioProtocol,Initializing ProtocolHandler ["http-nio-9000"],,,
+2024-12-17 10:28:42,,INFO,o.a.catalina.core.StandardService,Starting service [Tomcat],,,
+2024-12-17 10:28:42,,INFO,o.a.catalina.core.StandardEngine,Starting Servlet engine: [Apache Tomcat/10.1.33],,,
+2024-12-17 10:28:42,,INFO,o.a.c.c.C.[Tomcat].[localhost].[/],Initializing Spring embedded WebApplicationContext,,,
+2024-12-17 10:28:42,,INFO,o.s.b.w.s.c.ServletWebServerApplicationContext,Root WebApplicationContext: initialization completed in 1691 ms,,,
+2024-12-17 10:28:46,,INFO,o.s.cloud.commons.util.InetUtils,Cannot determine local hostname,,,
+2024-12-17 10:28:46,,INFO,o.s.b.a.e.web.EndpointLinksResolver,Exposing 25 endpoints beneath base path '/actuator',,,
+2024-12-17 10:28:46,,INFO,o.a.coyote.http11.Http11NioProtocol,Starting ProtocolHandler ["http-nio-9000"],,,
+2024-12-17 10:28:46,,INFO,o.s.b.w.e.tomcat.TomcatWebServer,Tomcat started on port 9000 (http) with context path '/',,,
+2024-12-17 10:28:46,,INFO,o.a.c.c.C.[Tomcat].[localhost].[/],Initializing Spring DispatcherServlet 'dispatcherServlet',,,
+2024-12-17 10:28:46,,INFO,o.s.web.servlet.DispatcherServlet,Initializing Servlet 'dispatcherServlet',,,
+2024-12-17 10:28:46,,INFO,o.s.web.servlet.DispatcherServlet,Completed initialization in 1 ms,,,
+2024-12-17 10:28:47,,INFO,o.s.cloud.commons.util.InetUtils,Cannot determine local hostname,,,
+2024-12-17 10:28:47,,INFO,c.p.m.a.a.ApiGatewayApplication,Started ApiGatewayApplication in 8.592 seconds (process running for 9.028),,,
+2024-12-17 10:36:18,INFO,2024-12-17 10:36:18,730,,,,,,HV000001: Hibernate Validator 8.0.1.Final,
+2024-12-17 10:36:18,INFO,2024-12-17 10:36:18,763,,,,,,Starting ApiGatewayApplication using Java 21.0.5 with PID 38540 (D:\RECUPERATION\Ets 2024\Automne 2024\MGL870\Projet\api-gateway\target\classes started by berth in D:\RECUPERATION\Ets 2024\Automne 2024\MGL870\Projet\api-gateway),
+2024-12-17 10:36:18,INFO,2024-12-17 10:36:18,763,,,,,,No active profile set, falling back to 1 default profile: "default",
+2024-12-17 10:36:19,INFO,2024-12-17 10:36:19,894,,,,,,BeanFactory id=6ed491d6-b9c8-37dd-97da-61a6c0f40073,
+2024-12-17 10:36:20,INFO,2024-12-17 10:36:20,514,,,,,,Tomcat initialized with port 9000 (http),
+2024-12-17 10:36:20,INFO,2024-12-17 10:36:20,524,,,,,,Initializing ProtocolHandler ["http-nio-9000"],
+2024-12-17 10:36:20,INFO,2024-12-17 10:36:20,527,,,,,,Starting service [Tomcat],
+2024-12-17 10:36:20,INFO,2024-12-17 10:36:20,527,,,,,,Starting Servlet engine: [Apache Tomcat/10.1.33],
+2024-12-17 10:36:20,INFO,2024-12-17 10:36:20,582,,,,,,Initializing Spring embedded WebApplicationContext,
+2024-12-17 10:36:20,INFO,2024-12-17 10:36:20,583,,,,,,Root WebApplicationContext: initialization completed in 1786 ms,
+2024-12-17 10:36:25,INFO,2024-12-17 10:36:25,099,,,,,,Cannot determine local hostname,
+2024-12-17 10:36:25,INFO,2024-12-17 10:36:25,151,,,,,,Exposing 25 endpoints beneath base path '/actuator',
+2024-12-17 10:36:25,INFO,2024-12-17 10:36:25,211,,,,,,Starting ProtocolHandler ["http-nio-9000"],
+2024-12-17 10:36:25,INFO,2024-12-17 10:36:25,219,,,,,,Tomcat started on port 9000 (http) with context path '/',
+2024-12-17 10:36:26,INFO,2024-12-17 10:36:26,230,,,,,,Cannot determine local hostname,
+2024-12-17 10:36:26,INFO,2024-12-17 10:36:26,242,,,,,,Started ApiGatewayApplication in 8.769 seconds (process running for 9.258),
+2024-12-17 10:36:26,INFO,2024-12-17 10:36:26,958,,,,,,Initializing Spring DispatcherServlet 'dispatcherServlet',
+2024-12-17 10:36:26,INFO,2024-12-17 10:36:26,958,,,,,,Initializing Servlet 'dispatcherServlet',
+2024-12-17 10:36:26,INFO,2024-12-17 10:36:26,959,,,,,,Completed initialization in 1 ms,
+2024-12-17 10:58:23,INFO,2024-12-17 10:58:23,891,,,,,,HV000001: Hibernate Validator 8.0.1.Final,
+2024-12-17 10:58:23,INFO,2024-12-17 10:58:23,935,,,,,,Starting ApiGatewayApplication using Java 21.0.5 with PID 37488 (D:\RECUPERATION\Ets 2024\Automne 2024\MGL870\Projet\api-gateway\target\classes started by berth in D:\RECUPERATION\Ets 2024\Automne 2024\MGL870\Projet\api-gateway),
+2024-12-17 10:58:23,INFO,2024-12-17 10:58:23,936,,,,,,No active profile set, falling back to 1 default profile: "default",
+2024-12-17 10:58:25,INFO,2024-12-17 10:58:25,610,,,,,,BeanFactory id=6ed491d6-b9c8-37dd-97da-61a6c0f40073,
+2024-12-17 10:58:26,INFO,2024-12-17 10:58:26,400,,,,,,Tomcat initialized with port 9000 (http),
+2024-12-17 10:58:26,INFO,2024-12-17 10:58:26,418,,,,,,Initializing ProtocolHandler ["http-nio-9000"],
+2024-12-17 10:58:26,INFO,2024-12-17 10:58:26,420,,,,,,Starting service [Tomcat],
+2024-12-17 10:58:26,INFO,2024-12-17 10:58:26,420,,,,,,Starting Servlet engine: [Apache Tomcat/10.1.33],
+2024-12-17 10:58:26,INFO,2024-12-17 10:58:26,476,,,,,,Initializing Spring embedded WebApplicationContext,
+2024-12-17 10:58:26,INFO,2024-12-17 10:58:26,477,,,,,,Root WebApplicationContext: initialization completed in 2499 ms,
+2024-12-17 10:58:31,INFO,2024-12-17 10:58:31,438,,,,,,Cannot determine local hostname,
+2024-12-17 10:58:31,INFO,2024-12-17 10:58:31,481,,,,,,Exposing 25 endpoints beneath base path '/actuator',
+2024-12-17 10:58:31,INFO,2024-12-17 10:58:31,524,,,,,,Starting ProtocolHandler ["http-nio-9000"],
+2024-12-17 10:58:31,INFO,2024-12-17 10:58:31,532,,,,,,Tomcat started on port 9000 (http) with context path '/',
+2024-12-17 10:58:32,INFO,2024-12-17 10:58:32,022,,,,,,Initializing Spring DispatcherServlet 'dispatcherServlet',
+2024-12-17 10:58:32,INFO,2024-12-17 10:58:32,023,,,,,,Initializing Servlet 'dispatcherServlet',
+2024-12-17 10:58:32,INFO,2024-12-17 10:58:32,024,,,,,,Completed initialization in 1 ms,
+2024-12-17 10:58:32,INFO,2024-12-17 10:58:32,549,,,,,,Cannot determine local hostname,
+2024-12-17 10:58:32,INFO,2024-12-17 10:58:32,559,,,,,,Started ApiGatewayApplication in 9.998 seconds (process running for 10.579),
+2024-12-17 11:23:58,WARN,2024-12-17 11:23:58,281,,,,,,Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.,
+2024-12-17 11:23:58,WARN,2024-12-17 11:23:58,282,,,,,,Dropped 1 spans due to InternalServerError(500 Internal Server Error: ""Internal Server Error""),
+org.springframework.web.client.HttpServerErrorException$InternalServerError: 500 Internal Server Error: ""Internal Server Error""
+	at org.springframework.web.client.HttpServerErrorException.create(HttpServerErrorException.java:102)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:186)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:137)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:942)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:891)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:830)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:691)
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.ZipkinRestTemplateSender.postSpans(ZipkinRestTemplateSender.java:50)
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.HttpSender.postSpans(HttpSender.java:69)
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.HttpSender.postSpans(HttpSender.java:41)
+	at zipkin2.reporter.BaseHttpSender.send(BaseHttpSender.java:123)
+	at zipkin2.reporter.internal.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:266)
+	at zipkin2.reporter.internal.AsyncReporter$Flusher.run(AsyncReporter.java:352)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-12-17 11:24:21,INFO,2024-12-17 11:24:21,865,,,,,,HV000001: Hibernate Validator 8.0.1.Final,
+2024-12-17 11:24:21,INFO,2024-12-17 11:24:21,912,,,,,,Starting ApiGatewayApplication using Java 21.0.5 with PID 38652 (D:\RECUPERATION\Ets 2024\Automne 2024\MGL870\Projet\api-gateway\target\classes started by berth in D:\RECUPERATION\Ets 2024\Automne 2024\MGL870\Projet\api-gateway),
+2024-12-17 11:24:21,INFO,2024-12-17 11:24:21,914,,,,,,No active profile set, falling back to 1 default profile: "default",
+2024-12-17 11:24:24,INFO,2024-12-17 11:24:24,016,,,,,,BeanFactory id=6ed491d6-b9c8-37dd-97da-61a6c0f40073,
+2024-12-17 11:24:25,INFO,2024-12-17 11:24:25,023,,,,,,Tomcat initialized with port 9000 (http),
+2024-12-17 11:24:25,INFO,2024-12-17 11:24:25,041,,,,,,Initializing ProtocolHandler ["http-nio-9000"],
+2024-12-17 11:24:25,INFO,2024-12-17 11:24:25,045,,,,,,Starting service [Tomcat],
+2024-12-17 11:24:25,INFO,2024-12-17 11:24:25,045,,,,,,Starting Servlet engine: [Apache Tomcat/10.1.33],
+2024-12-17 11:24:25,INFO,2024-12-17 11:24:25,105,,,,,,Initializing Spring embedded WebApplicationContext,
+2024-12-17 11:24:25,INFO,2024-12-17 11:24:25,106,,,,,,Root WebApplicationContext: initialization completed in 3125 ms,
+2024-12-17 11:24:30,INFO,2024-12-17 11:24:30,199,,,,,,Cannot determine local hostname,
+2024-12-17 11:24:30,INFO,2024-12-17 11:24:30,257,,,,,,Exposing 25 endpoints beneath base path '/actuator',
+2024-12-17 11:24:30,INFO,2024-12-17 11:24:30,320,,,,,,Starting ProtocolHandler ["http-nio-9000"],
+2024-12-17 11:24:30,INFO,2024-12-17 11:24:30,331,,,,,,Tomcat started on port 9000 (http) with context path '/',
+2024-12-17 11:24:31,INFO,2024-12-17 11:24:31,346,,,,,,Cannot determine local hostname,
+2024-12-17 11:24:31,INFO,2024-12-17 11:24:31,360,,,,,,Started ApiGatewayApplication in 10.847 seconds (process running for 11.423),
+2024-12-17 11:24:32,INFO,2024-12-17 11:24:32,335,,,,,,Initializing Spring DispatcherServlet 'dispatcherServlet',
+2024-12-17 11:24:32,INFO,2024-12-17 11:24:32,335,,,,,,Initializing Servlet 'dispatcherServlet',
+2024-12-17 11:24:32,INFO,2024-12-17 11:24:32,336,,,,,,Completed initialization in 1 ms,
+2024-12-17 11:24:56,WARN,2024-12-17 11:24:56,365,,,,,,Resolved [org.springframework.web.context.request.async.AsyncRequestNotUsableException: ServletOutputStream failed to write: java.nio.channels.ClosedChannelException],
+2024-12-17 11:25:00,INFO,2024-12-17 11:25:00,201,,,,,,HV000001: Hibernate Validator 8.0.1.Final,
+2024-12-17 11:25:00,INFO,2024-12-17 11:25:00,234,,,,,,Starting ApiGatewayApplication using Java 21.0.5 with PID 31932 (D:\RECUPERATION\Ets 2024\Automne 2024\MGL870\Projet\api-gateway\target\classes started by berth in D:\RECUPERATION\Ets 2024\Automne 2024\MGL870\Projet\api-gateway),
+2024-12-17 11:25:00,INFO,2024-12-17 11:25:00,235,,,,,,No active profile set, falling back to 1 default profile: "default",
+2024-12-17 11:25:01,INFO,2024-12-17 11:25:01,390,,,,,,BeanFactory id=6ed491d6-b9c8-37dd-97da-61a6c0f40073,
+2024-12-17 11:25:02,INFO,2024-12-17 11:25:02,022,,,,,,Tomcat initialized with port 9000 (http),
+2024-12-17 11:25:02,INFO,2024-12-17 11:25:02,030,,,,,,Initializing ProtocolHandler ["http-nio-9000"],
+2024-12-17 11:25:02,INFO,2024-12-17 11:25:02,032,,,,,,Starting service [Tomcat],
+2024-12-17 11:25:02,INFO,2024-12-17 11:25:02,032,,,,,,Starting Servlet engine: [Apache Tomcat/10.1.33],
+2024-12-17 11:25:02,INFO,2024-12-17 11:25:02,084,,,,,,Initializing Spring embedded WebApplicationContext,
+2024-12-17 11:25:02,INFO,2024-12-17 11:25:02,085,,,,,,Root WebApplicationContext: initialization completed in 1823 ms,
+2024-12-17 11:25:06,INFO,2024-12-17 11:25:06,034,,,,,,Cannot determine local hostname,
+2024-12-17 11:25:06,INFO,2024-12-17 11:25:06,080,,,,,,Exposing 25 endpoints beneath base path '/actuator',
+2024-12-17 11:25:06,INFO,2024-12-17 11:25:06,127,,,,,,Starting ProtocolHandler ["http-nio-9000"],
+2024-12-17 11:25:06,INFO,2024-12-17 11:25:06,139,,,,,,Tomcat started on port 9000 (http) with context path '/',
+2024-12-17 11:25:06,INFO,2024-12-17 11:25:06,328,,,,,,Initializing Spring DispatcherServlet 'dispatcherServlet',
+2024-12-17 11:25:06,INFO,2024-12-17 11:25:06,328,,,,,,Initializing Servlet 'dispatcherServlet',
+2024-12-17 11:25:06,INFO,2024-12-17 11:25:06,328,,,,,,Completed initialization in 0 ms,
+2024-12-17 11:25:07,INFO,2024-12-17 11:25:07,154,,,,,,Cannot determine local hostname,
+2024-12-17 11:25:07,INFO,2024-12-17 11:25:07,167,,,,,,Started ApiGatewayApplication in 8.251 seconds (process running for 8.656),
+2024-12-17 11:55:53,WARN,2024-12-17 11:55:53,902,,,,,,Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.,
+2024-12-17 11:55:53,WARN,2024-12-17 11:55:53,905,,,,,,Dropped 1 spans due to InternalServerError(500 Internal Server Error: ""Internal Server Error""),
+org.springframework.web.client.HttpServerErrorException$InternalServerError: 500 Internal Server Error: ""Internal Server Error""
+	at org.springframework.web.client.HttpServerErrorException.create(HttpServerErrorException.java:102)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:186)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:137)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:942)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:891)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:830)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:691)
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.ZipkinRestTemplateSender.postSpans(ZipkinRestTemplateSender.java:50)
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.HttpSender.postSpans(HttpSender.java:69)
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.HttpSender.postSpans(HttpSender.java:41)
+	at zipkin2.reporter.BaseHttpSender.send(BaseHttpSender.java:123)
+	at zipkin2.reporter.internal.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:266)
+	at zipkin2.reporter.internal.AsyncReporter$Flusher.run(AsyncReporter.java:352)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-12-17 19:25:35,INFO,2024-12-17 19:25:35,581,,,,,,HV000001: Hibernate Validator 8.0.1.Final,
+2024-12-17 19:25:35,INFO,2024-12-17 19:25:35,632,,,,,,Starting ApiGatewayApplication using Java 21.0.5 with PID 37732 (D:\RECUPERATION\Ets 2024\Automne 2024\MGL870\Projet\api-gateway\target\classes started by berth in D:\RECUPERATION\Ets 2024\Automne 2024\MGL870\Projet\api-gateway),
+2024-12-17 19:25:35,INFO,2024-12-17 19:25:35,633,,,,,,No active profile set, falling back to 1 default profile: "default",
+2024-12-17 19:25:36,INFO,2024-12-17 19:25:36,993,,,,,,BeanFactory id=6ed491d6-b9c8-37dd-97da-61a6c0f40073,
+2024-12-17 19:25:37,INFO,2024-12-17 19:25:37,663,,,,,,Tomcat initialized with port 9000 (http),
+2024-12-17 19:25:37,INFO,2024-12-17 19:25:37,679,,,,,,Initializing ProtocolHandler ["http-nio-9000"],
+2024-12-17 19:25:37,INFO,2024-12-17 19:25:37,681,,,,,,Starting service [Tomcat],
+2024-12-17 19:25:37,INFO,2024-12-17 19:25:37,681,,,,,,Starting Servlet engine: [Apache Tomcat/10.1.33],
+2024-12-17 19:25:37,INFO,2024-12-17 19:25:37,739,,,,,,Initializing Spring embedded WebApplicationContext,
+2024-12-17 19:25:37,INFO,2024-12-17 19:25:37,740,,,,,,Root WebApplicationContext: initialization completed in 2034 ms,
+2024-12-17 19:25:42,INFO,2024-12-17 19:25:42,331,,,,,,Cannot determine local hostname,
+2024-12-17 19:25:42,INFO,2024-12-17 19:25:42,373,,,,,,Exposing 25 endpoints beneath base path '/actuator',
+2024-12-17 19:25:42,INFO,2024-12-17 19:25:42,418,,,,,,Starting ProtocolHandler ["http-nio-9000"],
+2024-12-17 19:25:42,INFO,2024-12-17 19:25:42,426,,,,,,Tomcat started on port 9000 (http) with context path '/',
+2024-12-17 19:25:43,INFO,2024-12-17 19:25:43,439,,,,,,Cannot determine local hostname,
+2024-12-17 19:25:43,INFO,2024-12-17 19:25:43,451,,,,,,Started ApiGatewayApplication in 9.264 seconds (process running for 10.183),
+2024-12-17 19:25:44,INFO,2024-12-17 19:25:44,096,,,,,,Initializing Spring DispatcherServlet 'dispatcherServlet',
+2024-12-17 19:25:44,INFO,2024-12-17 19:25:44,097,,,,,,Initializing Servlet 'dispatcherServlet',
+2024-12-17 19:25:44,INFO,2024-12-17 19:25:44,098,,,,,,Completed initialization in 1 ms,
+2024-12-17 20:13:08,WARN,2024-12-17 20:13:08,061,,,,,,Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.,
+2024-12-17 20:13:08,WARN,2024-12-17 20:13:08,066,,,,,,Dropped 1 spans due to InternalServerError(500 Internal Server Error: ""Internal Server Error""),
+org.springframework.web.client.HttpServerErrorException$InternalServerError: 500 Internal Server Error: ""Internal Server Error""
+	at org.springframework.web.client.HttpServerErrorException.create(HttpServerErrorException.java:102)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:186)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:137)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:942)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:891)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:830)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:691)
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.ZipkinRestTemplateSender.postSpans(ZipkinRestTemplateSender.java:50)
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.HttpSender.postSpans(HttpSender.java:69)
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.HttpSender.postSpans(HttpSender.java:41)
+	at zipkin2.reporter.BaseHttpSender.send(BaseHttpSender.java:123)
+	at zipkin2.reporter.internal.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:266)
+	at zipkin2.reporter.internal.AsyncReporter$Flusher.run(AsyncReporter.java:352)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-12-17 20:35:27,INFO,2024-12-17 20:35:27,073,,,,,,HV000001: Hibernate Validator 8.0.1.Final,
+2024-12-17 20:35:27,INFO,2024-12-17 20:35:27,098,,,,,,Starting ApiGatewayApplication using Java 21.0.5 with PID 44720 (D:\RECUPERATION\Ets 2024\Automne 2024\MGL870\Projet\api-gateway\target\classes started by berth in D:\RECUPERATION\Ets 2024\Automne 2024\MGL870\Projet\api-gateway),
+2024-12-17 20:35:27,INFO,2024-12-17 20:35:27,098,,,,,,No active profile set, falling back to 1 default profile: "default",
+2024-12-17 20:35:28,INFO,2024-12-17 20:35:28,109,,,,,,BeanFactory id=6ed491d6-b9c8-37dd-97da-61a6c0f40073,
+2024-12-17 20:35:28,INFO,2024-12-17 20:35:28,659,,,,,,Tomcat initialized with port 9000 (http),
+2024-12-17 20:35:28,INFO,2024-12-17 20:35:28,674,,,,,,Initializing ProtocolHandler ["http-nio-9000"],
+2024-12-17 20:35:28,INFO,2024-12-17 20:35:28,676,,,,,,Starting service [Tomcat],
+2024-12-17 20:35:28,INFO,2024-12-17 20:35:28,676,,,,,,Starting Servlet engine: [Apache Tomcat/10.1.33],
+2024-12-17 20:35:28,INFO,2024-12-17 20:35:28,727,,,,,,Initializing Spring embedded WebApplicationContext,
+2024-12-17 20:35:28,INFO,2024-12-17 20:35:28,727,,,,,,Root WebApplicationContext: initialization completed in 1603 ms,
+2024-12-17 20:35:32,INFO,2024-12-17 20:35:32,832,,,,,,Cannot determine local hostname,
+2024-12-17 20:35:32,INFO,2024-12-17 20:35:32,873,,,,,,Exposing 25 endpoints beneath base path '/actuator',
+2024-12-17 20:35:32,INFO,2024-12-17 20:35:32,927,,,,,,Starting ProtocolHandler ["http-nio-9000"],
+2024-12-17 20:35:32,INFO,2024-12-17 20:35:32,936,,,,,,Tomcat started on port 9000 (http) with context path '/',
+2024-12-17 20:35:33,INFO,2024-12-17 20:35:33,766,,,,,,Initializing Spring DispatcherServlet 'dispatcherServlet',
+2024-12-17 20:35:33,INFO,2024-12-17 20:35:33,767,,,,,,Initializing Servlet 'dispatcherServlet',
+2024-12-17 20:35:33,INFO,2024-12-17 20:35:33,767,,,,,,Completed initialization in 0 ms,
+2024-12-17 20:35:33,INFO,2024-12-17 20:35:33,955,,,,,,Cannot determine local hostname,
+2024-12-17 20:35:33,INFO,2024-12-17 20:35:33,964,,,,,,Started ApiGatewayApplication in 8.119 seconds (process running for 8.735),
+2024-12-18 01:51:25,INFO,2024-12-18 01:51:25,720,,,,,,HV000001: Hibernate Validator 8.0.1.Final,
+2024-12-18 01:51:25,INFO,2024-12-18 01:51:25,749,,,,,,Starting ApiGatewayApplication using Java 21.0.5 with PID 30148 (D:\RECUPERATION\Ets 2024\Automne 2024\MGL870\Projet\api-gateway\target\classes started by berth in D:\RECUPERATION\Ets 2024\Automne 2024\MGL870\Projet\api-gateway),
+2024-12-18 01:51:25,INFO,2024-12-18 01:51:25,750,,,,,,No active profile set, falling back to 1 default profile: "default",
+2024-12-18 01:51:26,INFO,2024-12-18 01:51:26,741,,,,,,BeanFactory id=6ed491d6-b9c8-37dd-97da-61a6c0f40073,
+2024-12-18 01:51:27,INFO,2024-12-18 01:51:27,267,,,,,,Tomcat initialized with port 9000 (http),
+2024-12-18 01:51:27,INFO,2024-12-18 01:51:27,278,,,,,,Initializing ProtocolHandler ["http-nio-9000"],
+2024-12-18 01:51:27,INFO,2024-12-18 01:51:27,280,,,,,,Starting service [Tomcat],
+2024-12-18 01:51:27,INFO,2024-12-18 01:51:27,280,,,,,,Starting Servlet engine: [Apache Tomcat/10.1.33],
+2024-12-18 01:51:27,INFO,2024-12-18 01:51:27,329,,,,,,Initializing Spring embedded WebApplicationContext,
+2024-12-18 01:51:27,INFO,2024-12-18 01:51:27,330,,,,,,Root WebApplicationContext: initialization completed in 1554 ms,
+2024-12-18 01:51:31,INFO,2024-12-18 01:51:31,107,,,,,,Cannot determine local hostname,
+2024-12-18 01:51:31,INFO,2024-12-18 01:51:31,156,,,,,,Exposing 25 endpoints beneath base path '/actuator',
+2024-12-18 01:51:31,INFO,2024-12-18 01:51:31,206,,,,,,Starting ProtocolHandler ["http-nio-9000"],
+2024-12-18 01:51:31,INFO,2024-12-18 01:51:31,216,,,,,,Tomcat started on port 9000 (http) with context path '/',
+2024-12-18 01:51:31,INFO,2024-12-18 01:51:31,562,,,,,,Initializing Spring DispatcherServlet 'dispatcherServlet',
+2024-12-18 01:51:31,INFO,2024-12-18 01:51:31,562,,,,,,Initializing Servlet 'dispatcherServlet',
+2024-12-18 01:51:31,INFO,2024-12-18 01:51:31,563,,,,,,Completed initialization in 1 ms,
+2024-12-18 01:51:32,INFO,2024-12-18 01:51:32,232,,,,,,Cannot determine local hostname,
+2024-12-18 01:51:32,INFO,2024-12-18 01:51:32,245,,,,,,Started ApiGatewayApplication in 7.864 seconds (process running for 9.037),
+2024-12-18 02:38:48,WARN,2024-12-18 02:38:48,296,,,,,,Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.,
+2024-12-18 02:38:48,WARN,2024-12-18 02:38:48,298,,,,,,Dropped 1 spans due to InternalServerError(500 Internal Server Error: ""Internal Server Error""),
+org.springframework.web.client.HttpServerErrorException$InternalServerError: 500 Internal Server Error: ""Internal Server Error""
+	at org.springframework.web.client.HttpServerErrorException.create(HttpServerErrorException.java:102)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:186)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:137)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:942)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:891)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:830)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:691)
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.ZipkinRestTemplateSender.postSpans(ZipkinRestTemplateSender.java:50)
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.HttpSender.postSpans(HttpSender.java:69)
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.HttpSender.postSpans(HttpSender.java:41)
+	at zipkin2.reporter.BaseHttpSender.send(BaseHttpSender.java:123)
+	at zipkin2.reporter.internal.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:266)
+	at zipkin2.reporter.internal.AsyncReporter$Flusher.run(AsyncReporter.java:352)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
